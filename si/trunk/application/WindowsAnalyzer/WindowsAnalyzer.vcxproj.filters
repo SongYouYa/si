@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{060a2a4e-0f3c-41f3-bdfc-c1319e792cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\material">
+      <UniqueIdentifier>{0c1a5db2-cb07-431b-a57e-ead38174e3ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\basic">
+      <UniqueIdentifier>{0fc51f1c-a70b-43da-81d4-9f8e545e8925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\userlog">
+      <UniqueIdentifier>{7dab37e7-ebd2-42b8-9c2f-f3caaf34306a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\net">
+      <UniqueIdentifier>{eaa7281c-7ac2-4026-aee4-dc4ef3179b57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\application\WindowsAnalyzer\globals.h">
+      <Filter>Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\application\WindowsAnalyzer\PWindowsAnalyzer.h">
+      <Filter>Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="material\PFsRegFile.h">
+      <Filter>Source Files\material</Filter>
+    </ClInclude>
+    <ClInclude Include="material\PRegParserUtils.h">
+      <Filter>Source Files\material</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\POsBaseParser.h">
+      <Filter>Source Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\PApplistParser.h">
+      <Filter>Source Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\LogonSessionsInformationHelper.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="material\TimeConverter.h">
+      <Filter>Source Files\material</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\Win32WMIHelper.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\PLoginUserHelper.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\ProcessInfoHelper.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\SetPrivilege.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\ModulesReliedByProcessHelper.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\FileVersionInfo.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\ServiceInfoHelper.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\ProcessHandleHelper.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\ClipboardInformationHelper.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\ListDirTasksHelper.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\ScheduleTasksAnalyzer.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\SAMPasswordHelper.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\OSLocater.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\AutoRunsHelper.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\AccessShortCutHelper.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\RecentRunProgAnalyzer.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\LogonListInfoHelper.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\WindirTasksAnalyzer.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="userlog\PRecentFilesAnalyzer.h">
+      <Filter>Source Files\userlog</Filter>
+    </ClInclude>
+    <ClInclude Include="net\NetUseHelper.h">
+      <Filter>Source Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\PortInformationHelper.h">
+      <Filter>Source Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\PortInformation.h">
+      <Filter>Source Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\PromiscPortHelper.h">
+      <Filter>Source Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\RouterInformationHelper.h">
+      <Filter>Source Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\NetFilesInformationHelper.h">
+      <Filter>Source Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\NetProtocolStatisticsHelper.h">
+      <Filter>Source Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\NetShareSourceInfoHelper.h">
+      <Filter>Source Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\ARPInfoHelper.h">
+      <Filter>Source Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\NetSessionsHelper.h">
+      <Filter>Source Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\NetBiosStatHelper.h">
+      <Filter>Source Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\NetActiveStatHelper.h">
+      <Filter>Source Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\NetworkInterfaceHelper.h">
+      <Filter>Source Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\NetAccountsParser.h">
+      <Filter>Source Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\application\WindowsAnalyzer\PWinCallbackFactory.h">
+      <Filter>Public Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PWindowsAnalyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="material\PFsRegFile.cpp">
+      <Filter>Source Files\material</Filter>
+    </ClCompile>
+    <ClCompile Include="material\PRegParserUtils.cpp">
+      <Filter>Source Files\material</Filter>
+    </ClCompile>
+    <ClCompile Include="basic\POsBaseParser.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="basic\PApplistParser.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\LogonSessionsInformationHelper.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="material\TimeConverter.cpp">
+      <Filter>Source Files\material</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\Win32WMIHelper.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\PLoginUserHelper.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\ProcessInfoHelper.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\SetPrivilege.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\ModulesReliedByProcessHelper.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\FileVersionInfo.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\ServiceInfoHelper.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\ProcessHandleHelper.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\ClipboardInformationHelper.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\ListDirTasksHelper.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\ScheduleTasksAnalyzer.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\SAMPasswordHelper.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\OSLocater.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\AutoRunsHelper.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\AccessShortCutHelper.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\RecentRunProgAnalyzer.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\LogonListInfoHelper.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\WindirTasksAnalyzer.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="userlog\PRecentFilesAnalyzer.cpp">
+      <Filter>Source Files\userlog</Filter>
+    </ClCompile>
+    <ClCompile Include="net\NetUseHelper.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\PortInformationHelper.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\PromiscPortHelper.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\RouterInformationHelper.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\NetFilesInformationHelper.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\NetProtocolStatisticsHelper.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\NetShareSourceInfoHelper.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\ARPInfoHelper.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\NetSessionsHelper.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\NetBiosStatHelper.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\NetActiveStatHelper.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\NetworkInterfaceHelper.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\NetAccountsParser.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="PWinCallbackFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

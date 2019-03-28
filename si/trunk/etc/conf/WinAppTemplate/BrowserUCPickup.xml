@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="BrowserUCBrowserFiles">
+	<root name = "UCData" base = "Users" path = "local/UCBrowser/User Data/Default$" keyNames = "Default" OS="Windows7" version="5.0.966.41">
+		<target name =  "history">
+			<file name = "History.[0-9]*$" />
+		</target>
+		<target name = "cookie">
+			<file name = "Cookies.[0-9]*$" />
+		</target>
+		<target name ="cache">
+			<dir name = "Cache">
+				<file name = "data_[0-9]*$" />
+				<file name = "f_[0-9a-zA-Z]*$" />
+				<file name = "index" />
+			</dir>
+		</target>
+		<target name = "application Cache">
+			<dir name = "Application Cache">
+				<dir name = ".*">
+					<file name = ".*"/>
+				</dir>
+				<file name = ".*"/>
+			</dir>
+		</target>
+	</root>
+	<root name = "UCData" base = "Documents and Settings" path = "Local Settings/Application Data/UCBrowser/User Data/Default$" keyNames = "Default" OS = "Windows XP" version = "5.0.966.41">
+		<target name =  "history">
+			<file name = "History.[0-9]*$" />
+		</target>
+		<target name = "cookie">
+			<file name = "Cookies.[0-9]*$" />
+		</target>
+		<target name ="cache">
+			<dir name = "Cache">
+				<file name = "data_[0-9]*$" />
+				<file name = "f_[0-9a-zA-Z]*$" />
+				<file name = "index" />
+			</dir>
+		</target>
+		<target name = "application Cache">
+			<dir name = "Application Cache">
+				<dir name = ".*">
+					<file name = ".*"/>
+				</dir>
+				<file name = ".*"/>
+			</dir>
+		</target>
+    </root>
+</Application>

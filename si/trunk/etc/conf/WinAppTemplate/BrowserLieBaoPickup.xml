@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="BrowserLiebaoFiles">
+		<root name = "LiebaoData" base = "Users" path = "AppData/local/liebao/User Data/default$" keyNames = "default" OS="Windows7" version="5.2.91">
+			<target name =  "history">
+				<file name = "History" />
+			</target>
+			<target name = "cookie">
+				<file name = "Cookies" />
+			</target>
+			<target name ="cache">
+				<dir name = "Cache">
+					<file name = "data_[0-9]+" />
+					<file name = "f_[0-9a-fA-Z]+" />
+					<file name = "index" />
+				</dir>
+			</target>
+		</root>
+		<root name = "LiebaoData" base = "Documents and Settings" path = "Local Settings/Application Data/liebao/User Data/Default$" keyNames = "Default" OS="Windows XP" version="5.2.91">
+			<target name =  "history">
+				<file name = "History" />
+			</target>
+			<target name = "cookie">
+				<file name = "Cookies" />
+			</target>
+			<target name ="cache">
+				<dir name = "Cache">
+					<file name = "data_[0-9]+" />
+					<file name = "f_[0-9a-zA-Z]+" />
+					<file name = "index" />
+				</dir>
+			</target>
+		</root>
+</Application>

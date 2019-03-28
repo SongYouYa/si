@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="DownloadQQPickup">
+	<root name = "QQdownloadData" base = "Users" path = "AppData/Roaming/Tencent/QQDownload" keyNames = "QQDownload" OS="Windows7" version="4.8.772.402">
+		<target name =  "dat_files">
+			<dir name = "[0-9]+">
+				<dir name = "Setting">
+					<file name = ".*\.dat" />
+				</dir>
+			</dir>
+		</target>
+	</root>
+	<root name = "QQdownloadData" base = "Documents and Settings" path = "Application Data/Tencent/QQDownload" keyNames = "QQDownload" OS="Windows XP" version="4.8.772.402">
+		<target name =  "dat_files">
+			<dir name = "[0-9]+">
+				<dir name = "Setting">
+					<file name = ".*\.dat" />
+				</dir>
+			</dir>
+		</target>
+	</root>
+</Application>

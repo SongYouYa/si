@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="暴风影音">
+	<root name = "exe" base = "" path = "" SubKeyNames = "&quot;StormPlayer.exe&quot;" OS="Windows" version="">
+		<target name =  "exe">
+			<file name = "StormPlayer.exe" />
+		</target>
+	</root>
+	<root name = "ini" base = "" path = "" SubKeyNames = "&quot;config.ini&quot;" OS="Windows" version="">
+		<target name =  "ini">
+			<file name = "config.ini" />
+		</target>
+	</root>
+	<root name = "smpl" base = "" path = "" SubKeyNames = "&quot;smpl&quot;" OS="Windows" version="">
+		<target name =  "smpl">
+			<file name = "smpl" />
+		</target>
+	</root>
+</Application>

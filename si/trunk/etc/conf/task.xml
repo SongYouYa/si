@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tasks>
+	<task tasktype="task.deviceclone" tabletype="table.deviceclone"  withspeed="true" filesystem="" display="磁盘克隆" icon="deviceclone.png" tip="磁盘克隆"/>
+	<task tasktype="task.deviceimage" tabletype="table.deviceimage"  withspeed="true" filesystem="" display="镜像取证" icon="deviceimage.png" tip="磁盘镜像"/>
+	<task tasktype="task.memoryimage" tabletype="table.deviceimage"  withspeed="true" filesystem="" display="内存镜像" icon="memoryimage.png" tip="内存镜像"/>
+	<task tasktype="task.deviceerase" tabletype="table.deviceerase" withspeed="true" filesystem="" display="硬盘擦除" icon="" tip="硬盘擦除"/>
+	<task tasktype="task.initapptree" tabletype="table.approot" filesystem="" display="初始化应用选项" icon="bkfile.png" tip="初始化需要分析的应用选项"/>
+	<task tasktype="task.apps" tabletype="table.approot" filesystem="" display="数据分析" icon="apps.png" tip="数据分析"/>
+	<task tasktype="task.screenvideo" tabletype="table.screenvideo" filesystem="" display="录制屏幕" icon="bkfile.png" tip="录制屏幕"/>
+	<task tasktype="task.fileexport" tabletype="table.fileexport" withspeed="true" filesystem="" display="文件导出" icon="fileexport.png" tip="导出文件"/>
+</tasks>

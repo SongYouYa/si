@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="ChatMSNFiles">
+	<root name = "MSNData" base = "" path = "Windows Live/Messenger$" keyNames = "Messenger" OS="Windows" version="2009">
+		<target name =  "db">
+			<file name = ".*\.db" />
+		</target>
+		<target name = "dat">
+			<file name = ".*\.dat" />
+		</target>
+	</root>
+</Application>

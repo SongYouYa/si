@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="迅雷影音">
+	<root name = "exe" base = "" path = "" SubKeyNames = "&quot;XMP.exe&quot;" OS="Windows" version="">
+		<target name =  "exe">
+			<file name = "XMP.exe" />
+		</target>
+	</root>
+	<root name = "lua" base = "" path = "" SubKeyNames = "&quot;userdata.lua&quot;" OS="Windows" version="">
+		<target name =  "lua">
+			<file name = "userdata.lua" />
+		</target>
+	</root>
+	<root name = "lua" base = "" path = "" SubKeyNames = "&quot;playlist.lua&quot;" OS="Windows" version="">
+		<target name =  "lua">
+			<file name = "playlist.lua" />
+		</target>
+	</root>
+	<root name = "lua" base = "" path = "" SubKeyNames = "&quot;default.lua&quot;" OS="Windows" version="">
+		<target name =  "lua">
+			<file name = "default.lua" />
+		</target>
+	</root>
+</Application>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- displaytype: E_STRING, E_MEDIA-->
+<!-- mediatype: E_NONE, E_IMG, E_MEDIACOMMON -->
+<tables>
+	<table typename = "table.mac.systembaseinfo" display = "操作系统信息">
+		<cloume type = "string" name = "SIVersion" display = "系统版本" width = "150"/>
+		<cloume type = "string" name = "SILanguage" display = "系统语言" width = "150"/>	
+		<cloume type = "string" name = "SITimeZone" display = "系统时区" width = "150"/>
+		<cloume type = "time" name = "SIInstallTime" display = "安装日期" width = "150"/>
+	</table>	
+	<table typename = "table.mac.applist_sys" display = "应用程序列表">
+		<cloume type = "string" name = "Name" display = "应用程序名称" width = "150"/>
+		<cloume type = "string" name = "Path" display = "路径" width = "150"/>
+		<cloume type = "string" name = "Version" display = "版本" width = "100"/>
+		<cloume type = "string" name = "InstallSource" display = "安装类型" width = "100"/>
+		<cloume type = "time" name = "lastModifyTime" display = "修改时间" width = "150"/>
+		<cloume type = "time" name = "StatusChangeTime" display = "属性改变时间" width = "150"/>
+		<cloume type = "time" name = "LastAccessTime" display = "访问时间" width = "150"/>
+		<cloume type = "string" name = "otherinfo" display = "其他信息" width = "150"/>
+	</table>
+	<table typename = "table.mac.userinfo" display = "用户信息">
+		<cloume type = "string" name = "SIUserID" display = "用户ID" width = "50"/>
+		<cloume type = "string" name = "SIUseName" display = "用户名" width = "90"/>	
+		<cloume type = "string" name = "SIUseType" display = "用户类型" width = "90"/>	
+		<cloume type = "string" name = "SIGroupID" display = "组ID" width = "50"/>	
+       	<cloume type = "string" name = "SIGroupName" display = "组" width = "50"/>	
+        <cloume type = "string" name = "SIMainDire" display = "主目录" width = "100"/>
+        <cloume type = "time" name = "SICreateTime" display = "创建时间" width = "100"/>    
+        <cloume type = "string" name = "SIFileVaultDire" display = "FileVault目录" width = "90"/>    
+        <cloume type = "string" name = "SIReMark" display = "备注" width = "100"/>           
+	</table>
+	<table typename = "table.mac.sharelistinfo" display = "共享列表">
+		<cloume type = "string" name = "SIFileName" display = "文件名" width = "100"/>
+		<cloume type = "string" name = "SISharedName" display = "共享名" width = "100"/>	
+		<cloume type = "string" name = "SIUser" display = "用户" width = "100"/>	
+		<cloume type = "string" name = "SILimits" display = "权限" width = "100"/>	
+        <cloume type = "string" name = "SIType" display = "类别" width = "100"/>	          
+	</table>
+	<table typename = "table.mac.autorun" display = "自动运行项">
+		<cloume type = "string" name = "Type" display = "类型" width = "150"/>
+		<cloume type = "string" name = "FileName" display = "文件名" width = "200"/>
+		<cloume type = "string" name = "Command" display = "命令" width = "200"/>
+		<cloume type = "string" name = "User" display = "用户" width = "150"/>
+		<cloume type = "string" name = "Description" display = "描述" width = "100"/>
+		<cloume type = "string" name = "Path" display = "文件路径" width = "100"/>
+		<cloume type = "time" name = "LastAccess" display = "修改时间" width = "100"/>
+		<cloume type = "time" name = "LastModify" display = "访问时间" width = "150"/>
+		<cloume type = "string" name = "Remark" display = "备注" width = "100"/>
+	</table>
+	<table typename = "table.mac.activeinfo" display = "活动信息">        
+	</table>
+	<table typename = "table.mac.loginfo" display = "日志信息">        
+	</table>
+	<table typename = "table.mac.LogFileInfo" display = "日志文件导出列表">
+		<cloume type = "string" name = "SourcePath" display = "文件" width = "150"/>
+		<cloume type = "int" name = "FileSize" 	display = "大小" width = "100" decorator="E_SIZE"/>
+		<cloume type = "time"	name = "ModifyTime" display = "修改时间" width = "150"/>
+		<cloume type = "string" name = "HashValueMD5" 	display = "哈希值" width = "250"/>
+	</table>
+	<table typename = "table.mac.LogComputerBoot" display = "开关机记录">
+		<cloume type = "string" name = "Event" display = "事件(开机/关机)" width = "150"/>
+		<cloume type = "time" name = "Time" display = "时间" width = "150"/>
+		<cloume type = "string" name = "UserName" display = "用户名" width = "150"/>
+	</table>
+	<table typename = "table.mac.LogNetworkInterface" display = "网络信息变更记录">
+		<cloume type = "string" name = "Time" display = "时间" width = "150"/>
+		<cloume type = "string" name = "Name" display = "端口" width = "100"/>
+		<cloume type = "string" name = "Mtu" display = "MTU" width = "100"/>
+		<cloume type = "string" name = "Network" display = "网络" width = "100"/>
+		<cloume type = "string" name = "Address" display = "地址" width = "100"/>
+		<cloume type = "string" name = "Ipkts" display = "接收数据包" width = "100"/>
+		<cloume type = "string" name = "Ierrs" display = "接收错误" width = "100"/>
+		<cloume type = "string" name = "Opkts" display = "发送数据包" width = "100"/>
+		<cloume type = "string" name = "Oerrs" display = "发送错误" width = "100"/>
+		<cloume type = "string" name = "Coll" display = "coll" width = "100"/>
+	</table>
+	<table typename = "table.mac.LogDiskStatus" display = "磁盘信息变更记录">
+		<cloume type = "string" name = "Time" display = "时间" width = "150"/>
+		<cloume type = "string" name = "FileSystem" display = "文件系统" width = "120"/>
+		<cloume type = "string" name = "Size" display = "大小" width = "100"/>
+		<cloume type = "string" name = "Used" display = "已用空间" width = "100"/>
+		<cloume type = "string" name = "Avail" display = "可用空间" width = "100"/>
+		<cloume type = "string" name = "Capacity" display = "使用率" width = "100"/>
+		<cloume type = "string" name = "Iused" display = "iused" width = "100"/>
+		<cloume type = "string" name = "Ifree" display = "ifree" width = "100"/>
+		<cloume type = "string" name = "UsedPercent" display = "%iused" width = "100"/>
+		<cloume type = "string" name = "Mounted" display = "挂载点" width = "100"/>
+	</table>
+	<table typename = "table.mac.useractiveinfo" display = "用户活动">        
+	</table>
+	<table typename = "table.mac.MacAddressBook" display = "通讯录">
+		<cloume type = "string" name = "SIName" display = "名字" width = "60"/>
+		<cloume type = "string" name = "SICompany" display = "公司名" width = "150"/>	
+		<cloume type = "string" name = "SIPhone" display = "电话" width = "130"/>	
+		<cloume type = "string" name = "SIRelated" display = "相关联系人" width = "60"/>	
+		<cloume type = "string" name = "SIIMNumber" display = "即时通讯号" width = "130"/>	
+		<cloume type = "string" name = "SIAddress" display = "家庭住址" width = "180"/>
+		<cloume type = "string" name = "SINote" display = "备注" width = "280"/>	
+	</table>
+   	<table typename = "table.mac.RecentlyUsedItem" display = "最近使用项">
+		<cloume type = "string" name = "SIUser" display = "用户" width = "150"/>
+		<cloume type = "string" name = "SIType" display = "类型" width = "150"/>	
+		<cloume type = "string" name = "SIName" display = "名称" width = "150"/>	
+		<cloume type = "string" name = "SIAddress" display = "地址" width = "150"/>	
+	</table>
+	<table typename = "table.mac.filelist" display = "文件列表">        
+	</table>
+	<table typename = "table.mac.UserFileList" display = "用户目录下的文件列表">
+		<cloume type = "string" name = "SourcePath" display = "文件" width = "250"/>
+		<cloume type = "time" name = "CreateTime" 	display = "创建时间" width = "150"/>
+		<cloume type = "time"	name = "ModifyTime" display = "修改时间" width = "150"/>
+		<cloume type = "time" name = "AccessTime" 	display = "访问时间" width = "150"/>
+	</table>
+	<table typename = "table.mac.EncryptFileInfo" display = "加密文件列表">
+		<cloume type = "string" name = "FileName" display = "文件名" width = "150"/>
+		<cloume type = "int" name = "FileSize" 	display = "大小" width = "100" decorator="E_SIZE"/>
+		<cloume type = "string"	name = "SourcePath" display = "路径" width = "200"/>
+		<cloume type = "time" name = "ModifyTime" display = "修改时间" width = "150"/>
+		<cloume type = "time" name = "AccessTime" 	display = "访问时间" width = "150"/>
+		<cloume type = "string" name = "HashValueMD5" 	display = "哈希值" width = "250"/>
+	</table>
+	<table typename = "table.mac.browser" display = "浏览器">        
+	</table>
+	<table typename = "table.mac.safari" display = "Safari">        
+	</table>
+	<table typename = "table.mac.safarihistory" display = "浏览历史">
+		<cloume type = "string" name = "Title" display = "标题" width = "200"/>
+		<cloume type = "string" name = "Url" display = "URL" width = "200"/>
+		<cloume type = "time" name = "VisitTime" display = "最后访问时间" width = "150"/>
+		<cloume type = "int" name = "VisitCount" display = "访问次数" width = "100"/>
+	</table>
+	<table typename = "table.mac.safaridownload" display = "下载记录">
+		<cloume type = "string" name = "SavePath" display = "保存路径" width = "200"/>
+		<cloume type = "string" name = "Url" display = "URL" width = "220"/>
+		<cloume type = "int" name = "FileSize" display = "总大小" width = "100"/>
+		<cloume type = "int" name = "LoadedSize" display = "下载大小" width = "100"/>
+		<cloume type = "time" name = "StartTime" display = "开始时间" width = "150"/>
+		<cloume type = "time" name = "FinishTime" display = "结束时间" width = "150"/>
+	</table>
+	<table typename = "table.mac.safaricache" display = "缓存">
+		<cloume type = "string" name = "Url" display = "URL" width = "400"/>
+		<cloume type = "int" name = "VisitTime" display = "访问时间" width = "150"/>
+	</table>
+	<table typename = "table.mac.safaribookmark" display = "浏览器书签">
+		<cloume type = "string" name = "Title" display = "标题" width = "220"/>
+		<cloume type = "string" name = "Url" display = "URL" width = "100"/>
+	</table>
+	<table typename = "table.mac.safaricookie" display = "Cookie">
+		<cloume type = "string" name = "Name" display = "名字" width = "150"/>
+		<cloume type = "string" name = "Value" display = "内容" width = "150"/>
+		<cloume type = "string" name = "DomainUrl" display = "域" width = "150"/>
+		<cloume type = "string" name = "Path" display = "路径" width = "100"/>
+		<cloume type = "time" name = "CreatedTime" display = "创建时间" width = "150"/>
+		<cloume type = "time" name = "ExpireTime" display = "过期时间" width = "150"/>
+	</table>
+	<table typename = "table.mac.chrome" display = "Chrome">        
+	</table>
+	<table typename = "table.mac.chromehistory" display = "浏览历史">
+		<cloume type = "string" name = "Title" display = "标题" width = "200"/>
+		<cloume type = "string" name = "Url" display = "URL" width = "200"/>
+		<cloume type = "time" name = "VisitTime" display = "最后访问时间" width = "150"/>
+		<cloume type = "int" name = "VisitCount" display = "访问次数" width = "100"/>
+	</table>
+	<table typename = "table.mac.chromedownload" display = "下载记录">
+		<cloume type = "string" name = "SavePath" display = "保存路径" width = "200"/>
+		<cloume type = "string" name = "Url" display = "URL" width = "220"/>
+		<cloume type = "int" name = "FileSize" display = "总大小" width = "100" decorator="E_SIZE"/>
+		<cloume type = "int" name = "LoadedSize" display = "下载大小" width = "100" decorator="E_SIZE"/>
+		<cloume type = "time" name = "StartTime" display = "开始时间" width = "150"/>
+		<cloume type = "time" name = "FinishTime" display = "结束时间" width = "150"/>
+	</table>
+	<table typename = "table.mac.chromecache" display = "缓存">
+		<cloume type = "string" name = "Url" display = "URL" width = "400"/>
+		<cloume type = "int" name = "VisitTime" display = "访问时间" width = "150"/>
+	</table>
+	<table typename = "table.mac.chromebookmark" display = "书签">
+		<cloume type = "string" name = "Title" display = "标题" width = "220"/>
+		<cloume type = "string" name = "Url" display = "URL" width = "100"/>
+	</table>
+	<table typename = "table.mac.chromecookie" display = "Cookie">
+		<cloume type = "string" name = "Name" display = "名字" width = "150"/>
+		<cloume type = "string" name = "Value" display = "内容" width = "150"/>
+		<cloume type = "string" name = "DomainUrl" display = "域" width = "150"/>
+		<cloume type = "string" name = "Path" display = "路径" width = "100"/>
+		<cloume type = "time" name = "CreatedTime" display = "创建时间" width = "150"/>
+		<cloume type = "time" name = "ExpireTime" display = "过期时间" width = "150"/>
+	</table>
+	<table typename = "table.mac.chromeform" display = "表单">
+		<cloume type = "string" name = "Name" display = "名字" width = "150"/>
+		<cloume type = "string" name = "Value" display = "内容" width = "150"/>
+		<cloume type = "time" name = "CreatedTime" display = "创建时间" width = "150"/>
+		<cloume type = "time" name = "LastUsedTime" display = "最后使用时间" width = "150"/>
+		<cloume type = "int" name = "Count" display = "使用次数" width = "150"/>
+	</table>
+	<table typename = "table.mac.im" display = "即时通讯">        
+	</table>
+	<table typename = "table.mac.skype" display = "Skype">        
+	</table>
+	<table typename = "table.mac.skypeaccount" display = "账户信息" doc = "Skype账户信息">
+		<cloume type = "string" name = "UserName" display = "账号" width = "60"/>
+		<cloume type = "string" name = "DisplayName" display = "显示名" width = "130"/>	
+		<cloume type = "string" name = "SignName" display = "昵称" width = "60"/>	
+		<cloume type = "string" name = "Country" display = "国家" width = "130"/>	
+		<cloume type = "string" name = "Province" display = "省" width = "80"/>
+		<cloume type = "string" name = "City" display = "城市" width = "50"/>
+		<cloume type = "string" name = "Sex" display = "性别" width = "30"/>
+		<cloume type = "string" name = "Birthday" display = "生日" width = "80"/>
+		<cloume type = "string" name = "Phone" display = "电话" width = "100"/>
+		<cloume type = "string" name = "OfficePhone" display = "办公电话" width = "100"/>
+		<cloume type = "string" name = "Mobile" display = "手机" width = "100"/>
+		<cloume type = "string" name = "Email" display = "电子邮箱" width = "100"/>
+		<cloume type = "string" name = "Website" display = "个人主页" width = "100"/>
+		<cloume type = "string" name = "About" display = "描述" width = "280"/>		
+	</table> 
+	<table typename = "table.mac.skypecontact" display = "联系人" doc= "Skype联系人">
+		<cloume type = "string" name = "UserName" display = "账号" width = "60"/>
+		<cloume type = "string" name = "DisplayName" display = "显示名" width = "130"/>	
+		<cloume type = "string" name = "SignName" display = "昵称" width = "60"/>	
+		<cloume type = "string" name = "Country" display = "国家" width = "130"/>	
+		<cloume type = "string" name = "Province" display = "省" width = "80"/>
+		<cloume type = "string" name = "City" display = "城市" width = "50"/>
+		<cloume type = "string" name = "Sex" display = "性别" width = "30"/>
+		<cloume type = "string" name = "Birthday" display = "生日" width = "80"/>
+		<cloume type = "string" name = "Phone" display = "电话" width = "100"/>
+		<cloume type = "string" name = "OfficePhone" display = "办公电话" width = "100"/>
+		<cloume type = "string" name = "Mobile" display = "手机" width = "100"/>
+		<cloume type = "string" name = "Email" display = "电子邮箱" width = "100"/>
+		<cloume type = "string" name = "Website" display = "个人主页" width = "100"/>
+		<cloume type = "string" name = "About" display = "描述" width = "280"/>
+		<cloume type = "string" name = "BeLongs" display = "所属账号" width = "130" />		
+	</table> 
+	<table typename = "table.mac.skypemsg" display = "聊天记录" doc = "Skype聊天记录">
+		<cloume type = "string" name = "UserName" display = "用户名" width = "60"/>	
+		<cloume type = "string" name = "MsgType" display = "消息类型" width = "60"/>	
+		<cloume type = "string" name = "Sender" display = "发送者" width = "60"/>	
+		<cloume type = "string" name = "Receiver" display = "接收者" width = "130"/>	
+		<cloume type = "string" name = "Content" display = "聊天内容" width = "460"/>
+		<cloume type = "time" name = "BeginTime" display = "发送时间" width = "130"/>					
+		<cloume type = "time" name = "EndTime" display = "结束时间" width = "60"/>	
+		<cloume type = "string" name = "FilePath" display = "文件路径" width = "60"/>	
+		<cloume type = "string" name = "FileName" display = "文件名" width = "60"/>	
+		<cloume type = "int" name = "FileSize" display = "文件大小" width = "60" decorator="E_SIZE"/>		
+	</table>
+	<table typename = "table.mac.imessage" display = "iMessage">        
+	</table>
+	<table typename = "table.mac.imessageaccount" display = "账户信息" doc = "IMessage账户信息">
+		<cloume type = "string" name = "SIAccount" display = "账号" width = "60"/>	
+		<cloume type = "string" name = "SIType" display = "账号类型" width = "130"/>
+		<cloume type = "string" name = "SIBelongsSystem" display = "所属操作系统用户" width = "150"/>
+	</table>
+	<table typename = "table.mac.imessagemsg" display = "聊天记录" doc = "IMessage聊天记录" >
+		<cloume type = "string" name = "SISender" display = "发送者" width = "150"/>
+		<cloume type = "time" name = "SITime" display = "时间" width = "150"/>
+		<cloume type = "string" name = "SIMsgText" display = "内容" width = "150"/>
+		<cloume type = "string" name = "SIReceiver" display = "接收者" width = "150"/>
+	</table>
+	<table typename = "table.mac.adium" display = "Adium">        
+	</table>
+	<table typename = "table.mac.adiumcontact" display = "联系人" doc = "Aadium联系人">
+		<cloume type = "string" name = "SIAccount" display = "账号" width = "60"/>
+		<cloume type = "string" name = "SIAlias" display = "昵称" width = "150"/>
+		<cloume type = "string" name = "SIGroupName" display = "所属组名" width = "150"/>
+		<cloume type = "string" name = "SIBelongs" display = "所属账号" width = "150"/>
+	</table>
+	<table typename = "table.mac.adiumaccount" display = "账户信息" doc = "Aadium账户信息" >
+		<cloume type = "string" name = "SIAccount" display = "账号" width = "60"/>
+		<cloume type = "string" name = "SIAlias" display = "昵称" width = "150"/>	
+		<cloume type = "string" name = "SIProtocol" display = "账号类型" width = "130"/>	
+	</table>
+	<table typename = "table.adiummsg" display = "聊天记录">
+		<cloume type = "string" name = "SISender" display = "发送者" width = "150"/>
+		<cloume type = "time" name = "SITime" display = "时间" width = "150"/>
+		<cloume type = "string" name = "SIMsgText" display = "内容" width = "150"/>
+		<cloume type = "string" name = "SIReceiver" display = "接收者" width = "150"/>
+	</table>
+	<table typename = "table.mac.mail" display = "电子邮件">        
+	</table>
+	<table typename = "table.mac.applemail" display = "Apple Mail">        
+	</table>
+ 	<table typename = "table.mac.AppleMailAccount" display = "账户信息">
+		<cloume type = "string" name = "UserName" display = "用户名" width = "60"/>	
+		<cloume type = "string" name = "AccountType" display = "账号类型" width = "60"/>	
+		<cloume type = "string" name = "EmailAddress" display = "邮件地址" width = "60"/>	
+		<cloume type = "string" name = "HostName" display = "主机地址" width = "130"/>	
+		<cloume type = "string" name = "Describe" display = "描述" width = "100"/>	
+	</table>
+	<table typename = "table.mac.AppleMailContact" display = "联系人">
+		<cloume type = "string" name = "UserName" display = "用户名" width = "60"/>	
+		<cloume type = "string" name = "EmailAddress" display = "邮件地址" width = "60"/>		
+	</table>
+	<table typename = "table.mac.AppleMailRecords" display = "邮件记录">
+		<cloume type = "string" name = "Subject" display = "主题" width = "60"/>	
+		<cloume type = "string" name = "FromName" display = "发送者" width = "60"/>	
+		<cloume type = "string" name = "ToName" display = "接收者" width = "60"/>	
+		<cloume type = "time" name = "SendTime" display = "发送时间" width = "130"/>	
+		<cloume type = "time" name = "ReceiveTime" display = "接收时间" width = "100"/>
+		<cloume type = "string" name = "Attachment" display = "附件名" width = "100"/>
+		<cloume type = "string" name = "CC" display = "抄送" width = "100"/>
+		<cloume type = "string" name = "BCC" display = "暗送" width = "100"/>
+		<cloume type = "string" name = "EmailType" display = "类型" width = "100"/>	
+	</table>
+	<table typename = "table.mac.thunderbird" display = "Thunderbird">        
+	</table>
+	<table typename = "table.mac.ThunderbirdContact" display = "联系人">
+		<cloume type = "string" name = "UserName" display = "用户名" width = "60"/>	
+		<cloume type = "string" name = "EmailAddress" display = "邮件地址" width = "60"/>		
+	</table>
+	<table typename = "table.mac.ThunderbirdRecords" display = "邮件记录">
+		<cloume type = "string" name = "Subject" display = "主题" width = "60"/>	
+		<cloume type = "string" name = "FromName" display = "发送者" width = "60"/>	
+		<cloume type = "string" name = "ToName" display = "接收者" width = "60"/>	
+		<cloume type = "time" name = "SendTime" display = "发送时间" width = "130"/>	
+		<cloume type = "time" name = "ReceiveTime" display = "接收时间" width = "100"/>
+		<cloume type = "string" name = "Attachment" display = "附件名" width = "100"/>
+		<cloume type = "string" name = "CC" display = "抄送" width = "100"/>
+		<cloume type = "string" name = "BCC" display = "暗送" width = "100"/>
+		<cloume type = "string" name = "EmailType" display = "类型" width = "100"/>	
+	</table>	
+</tables>
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="MailFoxmailFiles">
+	<root name = "FoxmailData" base = "" path = "Storage/.*@.*" keyNames = "" SubKeyNames = "&quot;.BOX&quot;" OS="Windows" version="6.5">
+		<target name =  "box">
+			<file name = ".*\.BOX" />
+		</target>
+	</root>
+	<root name = "FoxmailData" base = "" path = "" keyNames = "AccCfg" SubKeyNames = "" OS="Windows" version="7">
+		<target name =  "dat">
+			<file name = "Accounts.tdat" />
+		</target>
+	</root>
+	<root name = "FoxmailData" base = "" path = "" keyNames = "FoxmailTemp" SubKeyNames = "" OS="Windows" version="7">
+		<target name =  "html">
+			<file name = ".*.html" />
+		</target>
+	</root>
+	<root name = "FoxmailData" base = "" path = "Storage/.*@.*" keyNames = "" SubKeyNames = "&quot;Accounts&quot;" OS="Windows" version="7.2.5.140">
+		<target name =  "Account">
+			<dir name = "Accounts">
+				<file name = "Account.*" />
+			</dir>
+		</target>
+		<target name = "mail">
+			<dir name = "Mails">
+				<file name = "DeletedMails.dat" />
+				<file name = "idList" />
+				<file name = "Index" />
+				<file name = ".*\.key" />
+			</dir>
+		</target>
+		<target name ="Boxes">
+			<dir name = "Boxes">
+				<file name = ".*\.box" />
+				<file name = "box_unread_count.cache" />
+				<file name = "mId_bId.map" />
+			</dir>
+		</target>
+		<target name ="Indexes">
+			<dir name = "Indexes">
+				<dir name = "attach">
+					<file name = "[0-9a-zA-Z\.]+" />
+				</dir>
+				<dir name = "contactId">
+					<file name = "contactIds.ind" />
+					<file name = "table.ind" />
+				</dir>
+				<dir name = "recipients">
+					<file name = ".*" />
+				</dir>
+				<dir name = "subject">
+					<file name = ".*" />
+				</dir>
+				<dir name = "msgBody">
+					<file name = ".*" />
+				</dir>
+				<dir name = "email">
+					<file name = ".*" />
+				</dir>
+				<file name = "[a-z]+\.ind" />
+			</dir>
+		</target>
+		<target name ="Address">
+			<dir name = "Address">
+				<dir name = "3.0">
+					<dir name = "1">
+						<file name = "AddrData.hea" />
+						<file name = "AddrData.rec0" />
+						<file name = "AddrEmail_org.map" />
+						<file name = "AddrEmail_org.rec0" />
+					</dir>
+				</dir>
+			</dir>
+		</target>
+	</root>
+</Application>

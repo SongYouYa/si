@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="TencentWeiYunFiles">
+	<root name = "IEData" base = "" path = "" keyNames = "WeiyunDisk" OS="Windows7" version="3.8">
+		<target name = "weiyunData">
+			<file name = ".*.rdb" />	
+		</target>
+	</root>
+</Application>

@@ -1,0 +1,1066 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{8b28a28e-26e9-43bc-a4cf-fa662a37b856}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{1a31e685-1d99-493d-a314-29d6578ea4f7}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\logic">
+      <UniqueIdentifier>{3e1eb7da-be56-4b58-991c-ff7f92b47aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{ae63a9a2-5492-4f9f-83a9-054f3625d4eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\content">
+      <UniqueIdentifier>{8cc93d0d-ad32-4192-af4f-6e35c6d00163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\content\apps">
+      <UniqueIdentifier>{11dcd19c-8e4f-4e41-b081-5444a564f783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\content\case">
+      <UniqueIdentifier>{222c18be-d47c-4e34-a18c-c0300b9a7667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\content\device">
+      <UniqueIdentifier>{17f3001d-3f45-44e1-a547-f2797362e1c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\content\task">
+      <UniqueIdentifier>{6b98b33f-96e8-4af3-8cef-a82a32683a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\content\device\material">
+      <UniqueIdentifier>{cbc6f5d0-f8a8-495d-b355-4b2d42775af5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\content\device\handler">
+      <UniqueIdentifier>{dcd592ee-f851-4026-a966-c081b7faf50f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handler">
+      <UniqueIdentifier>{00519b1f-4347-4642-9d70-34b1f81bd83f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\translator">
+      <UniqueIdentifier>{299f7373-0043-4f44-a91d-bdba0509b077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files\ui\content\filesytem">
+      <UniqueIdentifier>{6634a0eb-a671-4fff-84c0-051a094df5a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\test">
+      <UniqueIdentifier>{313e0c6d-b08d-4e8c-9c60-53ede7cf2135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\header">
+      <UniqueIdentifier>{0c99377b-822a-40e1-a0f9-0f6656bcd412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\common">
+      <UniqueIdentifier>{9646a8c9-74ff-48d6-8154-b0202713e481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\common\tab">
+      <UniqueIdentifier>{41108f14-049c-4b5e-97f2-f50f0e721194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\content\report">
+      <UniqueIdentifier>{d45dc9b3-d837-440a-9d6a-8bf894ff8281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\content\filesytem\export">
+      <UniqueIdentifier>{76d43865-44c9-483e-92e7-ad235ae6d3b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\content\filesytem\filter">
+      <UniqueIdentifier>{7158dffa-9bf5-4cbf-a26d-289e5764d028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\content\task\detail">
+      <UniqueIdentifier>{2ad7b6a8-871b-4a17-8108-0a3a089dda00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\net">
+      <UniqueIdentifier>{595430a1-9690-4f78-b929-80c3c3eddb7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\common\widget">
+      <UniqueIdentifier>{f8fa3b34-b87e-47d9-be49-7ee2668ed52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\content\task\material">
+      <UniqueIdentifier>{196485d6-aaca-4f6f-9970-8f7f9747d13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\common\style">
+      <UniqueIdentifier>{0dc11280-3ad4-40ff-9544-b6a2e7f2dbc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\common\dialog">
+      <UniqueIdentifier>{dbce38d1-1b08-44a1-83ff-81245efeb30b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\common\edit">
+      <UniqueIdentifier>{0166dd74-2e7e-4247-89b2-921bc3cd6227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\common\filter">
+      <UniqueIdentifier>{87e67bdf-a1bc-4791-ad89-21b7f05fbe86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\common\filter\dialog">
+      <UniqueIdentifier>{cf8f2eb2-acae-4893-83c1-b721cdd01da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\status">
+      <UniqueIdentifier>{5f80f8ee-6e3f-42c0-88a4-21ad65472392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\logic\case">
+      <UniqueIdentifier>{782c1466-feee-4047-95a6-0d696b81e655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\common\progress">
+      <UniqueIdentifier>{38fc9da4-394f-41ab-9439-56ff2bab6d59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PMainWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PMainWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\PAppContext.cpp">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PCaseInfoDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PCaseInfoDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\case\PCaseInfoDialog.cpp">
+      <Filter>Source Files\ui\content\case</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\task\PTaskListWidget.cpp">
+      <Filter>Source Files\ui\content\task</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PTaskListWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PTaskListWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\task\PTaskView.cpp">
+      <Filter>Source Files\ui\content\task</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PTaskView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PTaskView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\device\handler\PDeviceViewHandler.cpp">
+      <Filter>Source Files\ui\content\device\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="handler\PTaskCacheHandler.cpp">
+      <Filter>Source Files\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PTaskCacheHandler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PTaskCacheHandler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\case\PCaseInfoParser.cpp">
+      <Filter>Source Files\ui\content\case</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PDeviceViewHandler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PDeviceViewHandler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\translator\PDynamicTranslator.cpp">
+      <Filter>Source Files\ui\translator</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PDynamicTranslator.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PDynamicTranslator.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\openssl\applink.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_main.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PDeviceCopyView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\device\PDeviceCopyView.cpp">
+      <Filter>Source Files\ui\content\device</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PDeviceCopyView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PFilesystemView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\filesytem\PFilesystemView.cpp">
+      <Filter>Source Files\ui\content\filesytem</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PFilesystemView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\device\PDeviceCloneWidget.cpp">
+      <Filter>Source Files\ui\content\device</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PDeviceCloneWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PDeviceCloneWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PDeviceImageWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\device\PDeviceImageWidget.cpp">
+      <Filter>Source Files\ui\content\device</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PDeviceImageWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\device\material\PImageOptionWidget.cpp">
+      <Filter>Source Files\ui\content\device\material</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PImageOptionWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PImageOptionWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\device\material\PSplitWidgetHandler.cpp">
+      <Filter>Source Files\ui\content\device\material</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PSplitWidgetHandler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PSplitWidgetHandler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="test\PDeviceTest.cpp">
+      <Filter>Source Files\test</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\device\material\PHashOptionWidget2.cpp">
+      <Filter>Source Files\ui\content\device\material</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\POperationButton.cpp">
+      <Filter>Source Files\ui\common</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\POperationButtonContainer.cpp">
+      <Filter>Source Files\ui\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_POperationButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_POperationButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PImageWidgetBase.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PImageWidgetBase.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\device\PImageWidgetBase.cpp">
+      <Filter>Source Files\ui\content\device</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\device\PMemoryImageWidget.cpp">
+      <Filter>Source Files\ui\content\device</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PMemoryImageWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PMemoryImageWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\apps\PAppView.cpp">
+      <Filter>Source Files\ui\content\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PAppView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PAppView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\PFilePathChecker.cpp">
+      <Filter>Source Files\ui\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PFilePathChecker.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PFilePathChecker.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\device\PMemoryImageDialog.cpp">
+      <Filter>Source Files\ui\content\device</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PMemoryImageDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PMemoryImageDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\tab\PLevel2TabBar.cpp">
+      <Filter>Source Files\ui\common\tab</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\report\PReportCreater.cpp">
+      <Filter>Source Files\ui\content\report</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PReportCreater.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PReportCreater.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\PReportStatus.cpp">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="handler\PFsHandler.cpp">
+      <Filter>Source Files\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\PDeviceLoader.cpp">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PDeviceLoader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PDeviceLoader.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PFsHandler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PFsHandler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="handler\PCaseHandler.cpp">
+      <Filter>Source Files\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PCaseHandler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PCaseHandler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\filesytem\export\PExportOptionDialog.cpp">
+      <Filter>Source Files\ui\content\filesytem\export</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PExportOptionDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PExportOptionDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="handler\PDeviceTaskHandler.cpp">
+      <Filter>Source Files\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\filesytem\export\PExportFileSizeCalculator.cpp">
+      <Filter>Source Files\ui\content\filesytem\export</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\filesytem\filter\PFsFilterBar.cpp">
+      <Filter>Source Files\ui\content\filesytem\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PFsFilterBar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PFsFilterBar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_POpenPathButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_POpenPathButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\task\detail\POpenPathButton.cpp">
+      <Filter>Source Files\ui\content\task\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\task\detail\PNavTabButton.cpp">
+      <Filter>Source Files\ui\content\task\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PNavTabButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PNavTabButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\task\detail\PDetailButtonFactory.cpp">
+      <Filter>Source Files\ui\content\task\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\net\PNetLicenseDialog.cpp">
+      <Filter>Source Files\ui\net</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\net\PNetLicHandler.cpp">
+      <Filter>Source Files\ui\net</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\net\PNetShareDialog.cpp">
+      <Filter>Source Files\ui\net</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PNetShareDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PNetShareDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="handler\PContextHandler.cpp">
+      <Filter>Source Files\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PNetLicenseDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PNetLicenseDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PNetLicHandler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PNetLicHandler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\net\PIpDialog.cpp">
+      <Filter>Source Files\ui\net</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PIpDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PIpDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\header\PHeaderWidget.cpp">
+      <Filter>Source Files\ui\header</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PHeaderWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PHeaderWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\header\PTabBarWidget.cpp">
+      <Filter>Source Files\ui\header</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PTabBarWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PTabBarWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\header\PPageTabButton.cpp">
+      <Filter>Source Files\ui\header</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PPageTabButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PPageTabButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\header\PLogoWidget.cpp">
+      <Filter>Source Files\ui\header</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PLogoWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PLogoWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\header\PToolContainer.cpp">
+      <Filter>Source Files\ui\header</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PToolContainer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PToolContainer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\header\PToolsHandler.cpp">
+      <Filter>Source Files\ui\header</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PToolsHandler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PToolsHandler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\header\PDropDownWidget.cpp">
+      <Filter>Source Files\ui\header</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PDropDownWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PDropDownWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\tab\PVTabBar.cpp">
+      <Filter>Source Files\ui\common\tab</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PVTabBar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PVTabBar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\tab\PVTabItemWidget.cpp">
+      <Filter>Source Files\ui\common\tab</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PLevel2TabBar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PLevel2TabBar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\widget\PHSplitLine.cpp">
+      <Filter>Source Files\ui\common\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\widget\PDirSelectWidget.cpp">
+      <Filter>Source Files\ui\common\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PDirSelectWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PDirSelectWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\widget\PWidgetTitleWrapper.cpp">
+      <Filter>Source Files\ui\common\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\device\PMemoryProgressDialog.cpp">
+      <Filter>Source Files\ui\content\device</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PMemoryProgressDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PMemoryProgressDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\task\PRunningTaskListWidget.cpp">
+      <Filter>Source Files\ui\content\task</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PRunningTaskListWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PRunningTaskListWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\task\PTaskHandlers.cpp">
+      <Filter>Source Files\ui\content\task</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PTaskItemWidgetBase.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\task\PTaskItemWidgetBase.cpp">
+      <Filter>Source Files\ui\content\task</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PTaskItemWidgetBase.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\task\PDoneTaskListWidget.cpp">
+      <Filter>Source Files\ui\content\task</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PDoneTaskListWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\task\PRunningTaskItemWidget.cpp">
+      <Filter>Source Files\ui\content\task</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PRunningTaskItemWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PRunningTaskItemWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PDoneTaskListWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PDoneTaskItemWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PDoneTaskItemWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\task\PDoneTaskItemWidget.cpp">
+      <Filter>Source Files\ui\content\task</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PTaskTabDecorator.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PTaskTabDecorator.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\task\material\PTaskTabDecorator.cpp">
+      <Filter>Source Files\ui\content\task\material</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\header\PAboutDialog.cpp">
+      <Filter>Source Files\ui\header</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PAboutDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PAboutDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\style\PCustomStyle.cpp">
+      <Filter>Source Files\ui\common\style</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PCustomStyle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PCustomStyle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\dialog\PMessageBox.cpp">
+      <Filter>Source Files\ui\common\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PMessageBox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PMessageBox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\dialog\PDialog2.cpp">
+      <Filter>Source Files\ui\common\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PDialog2.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PDialog2.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\edit\PSearchEdit.cpp">
+      <Filter>Source Files\ui\common\edit</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PSearchEdit.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PSearchEdit.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PFilterBarWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PFilterBarWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\filter\PFilterBarWidget.cpp">
+      <Filter>Source Files\ui\common\filter</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\filter\dialog\PExpWidget.cpp">
+      <Filter>Source Files\ui\common\filter\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PExpWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PExpWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\filter\dialog\PFieldNameModel.cpp">
+      <Filter>Source Files\ui\common\filter\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PFieldNameModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PFieldNameModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\filter\dialog\PFilterExpDialog.cpp">
+      <Filter>Source Files\ui\common\filter\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PFilterExpDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PFilterExpDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\filter\dialog\POperatorModel.cpp">
+      <Filter>Source Files\ui\common\filter\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_POperatorModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_POperatorModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\status\PStatusBar.cpp">
+      <Filter>Source Files\ui\status</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PStatusBar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PStatusBar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\report\PReportView.cpp">
+      <Filter>Source Files\ui\content\report</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PReportView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PReportView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PReportStatus.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PReportStatus.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\report\PReportCreaterBase.cpp">
+      <Filter>Source Files\ui\content\report</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PReportCreaterBase.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PReportCreaterBase.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\report\PReportCreater2.cpp">
+      <Filter>Source Files\ui\content\report</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PReportCreater2.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PReportCreater2.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\report\PReportRecordHandler.cpp">
+      <Filter>Source Files\ui\content\report</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\content\report\PExportReportDialog.cpp">
+      <Filter>Source Files\ui\content\report</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PExportReportDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PExportReportDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\case\PCaseTypeHandler.cpp">
+      <Filter>Source Files\logic\case</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\case\PCaseCatagoryHandler.cpp">
+      <Filter>Source Files\logic\case</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PCaseCatagoryHandler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PCaseCatagoryHandler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\common\progress\PLineLoadingWidget.cpp">
+      <Filter>Source Files\ui\common\progress</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PLineLoadingWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PLineLoadingWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="logic\PAppContext.h">
+      <Filter>Source Files\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\content\case\PCaseInfoParser.h">
+      <Filter>Source Files\ui\content\case</Filter>
+    </ClInclude>
+    <ClInclude Include="PTabNameDefs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\content\device\PDeviceTabNameDefs.h">
+      <Filter>Source Files\ui\content\device</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\content\device\material\PHashOptionWidget2.h">
+      <Filter>Source Files\ui\content\device\material</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\common\POperationButtonContainer.h">
+      <Filter>Source Files\ui\common</Filter>
+    </ClInclude>
+    <ClInclude Include="PLicDefs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="handler\PDeviceTaskHandler.h">
+      <Filter>Source Files\handler</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\content\task\detail\PDetailButtonFactory.h">
+      <Filter>Source Files\ui\content\task\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="handler\PContextHandler.h">
+      <Filter>Source Files\handler</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\content\filesytem\export\PExportFileSizeCalculator.h">
+      <Filter>Source Files\ui\content\filesytem\export</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\common\tab\PVTabItemWidget.h">
+      <Filter>Source Files\ui\common\tab</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\common\widget\PWidgetTitleWrapper.h">
+      <Filter>Source Files\ui\common\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\common\filter\dialog\PFilterDef.h">
+      <Filter>Source Files\ui\common\filter\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\common\filter\dialog\PValue.h">
+      <Filter>Source Files\ui\common\filter\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\case\PCaseTypeHandler.h">
+      <Filter>Source Files\logic\case</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="PMainWindow.h">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\case\PCaseInfoDialog.h">
+      <Filter>Source Files\ui\content\case</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\task\PTaskListWidget.h">
+      <Filter>Source Files\ui\content\task</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\task\PTaskView.h">
+      <Filter>Source Files\ui\content\task</Filter>
+    </CustomBuild>
+    <CustomBuild Include="handler\PTaskCacheHandler.h">
+      <Filter>Source Files\handler</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\device\handler\PDeviceViewHandler.h">
+      <Filter>Source Files\ui\content\device\handler</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\translator\PDynamicTranslator.h">
+      <Filter>Source Files\ui\translator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="main.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\device\PDeviceCopyView.h">
+      <Filter>Source Files\ui\content\device</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\filesytem\PFilesystemView.h">
+      <Filter>Source Files\ui\content\filesytem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\device\PDeviceCloneWidget.h">
+      <Filter>Source Files\ui\content\device</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\device\PDeviceImageWidget.h">
+      <Filter>Source Files\ui\content\device</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\device\material\PImageOptionWidget.h">
+      <Filter>Source Files\ui\content\device\material</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\device\material\PSplitWidgetHandler.h">
+      <Filter>Source Files\ui\content\device\material</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\common\POperationButton.h">
+      <Filter>Source Files\ui\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\device\PImageWidgetBase.h">
+      <Filter>Source Files\ui\content\device</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\device\PMemoryImageWidget.h">
+      <Filter>Source Files\ui\content\device</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\apps\PAppView.h">
+      <Filter>Source Files\ui\content\apps</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\device\PMemoryImageDialog.h">
+      <Filter>Source Files\ui\content\device</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\common\PFilePathChecker.h">
+      <Filter>Source Files\ui\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\report\PReportCreater.h">
+      <Filter>Source Files\ui\content\report</Filter>
+    </CustomBuild>
+    <CustomBuild Include="logic\PDeviceLoader.h">
+      <Filter>Source Files\logic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="handler\PFsHandler.h">
+      <Filter>Source Files\handler</Filter>
+    </CustomBuild>
+    <CustomBuild Include="handler\PCaseHandler.h">
+      <Filter>Source Files\handler</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\filesytem\export\PExportOptionDialog.h">
+      <Filter>Source Files\ui\content\filesytem\export</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\filesytem\filter\PFsFilterBar.h">
+      <Filter>Source Files\ui\content\filesytem\filter</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\task\detail\POpenPathButton.h">
+      <Filter>Source Files\ui\content\task\detail</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\task\detail\PNavTabButton.h">
+      <Filter>Source Files\ui\content\task\detail</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\net\PNetShareDialog.h">
+      <Filter>Source Files\ui\net</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\net\PNetLicenseDialog.h">
+      <Filter>Source Files\ui\net</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\net\PNetLicHandler.h">
+      <Filter>Source Files\ui\net</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\net\PIpDialog.h">
+      <Filter>Source Files\ui\net</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\header\PHeaderWidget.h">
+      <Filter>Source Files\ui\header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\header\PTabBarWidget.h">
+      <Filter>Source Files\ui\header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\header\PPageTabButton.h">
+      <Filter>Source Files\ui\header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\header\PLogoWidget.h">
+      <Filter>Source Files\ui\header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\header\PToolContainer.h">
+      <Filter>Source Files\ui\header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\header\PToolsHandler.h">
+      <Filter>Source Files\ui\header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\header\PDropDownWidget.h">
+      <Filter>Source Files\ui\header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\common\tab\PVTabBar.h">
+      <Filter>Source Files\ui\common\tab</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\common\tab\PLevel2TabBar.h">
+      <Filter>Source Files\ui\common\tab</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\common\widget\PHSplitLine.h">
+      <Filter>Source Files\ui\common\widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\common\widget\PDirSelectWidget.h">
+      <Filter>Source Files\ui\common\widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\device\PMemoryProgressDialog.h">
+      <Filter>Source Files\ui\content\device</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\task\PRunningTaskListWidget.h">
+      <Filter>Source Files\ui\content\task</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\task\PTaskHandlers.h">
+      <Filter>Source Files\ui\content\task</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\task\PTaskItemWidgetBase.h">
+      <Filter>Source Files\ui\content\task</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\task\PDoneTaskListWidget.h">
+      <Filter>Source Files\ui\content\task</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\task\PRunningTaskItemWidget.h">
+      <Filter>Source Files\ui\content\task</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\task\PDoneTaskItemWidget.h">
+      <Filter>Source Files\ui\content\task</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\task\material\PTaskTabDecorator.h">
+      <Filter>Source Files\ui\content\task\material</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\header\PAboutDialog.h">
+      <Filter>Source Files\ui\header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\common\style\PCustomStyle.h">
+      <Filter>Source Files\ui\common\style</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\common\dialog\PMessageBox.h">
+      <Filter>Source Files\ui\common\dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\common\dialog\PDialog2.h">
+      <Filter>Source Files\ui\common\dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\common\edit\PSearchEdit.h">
+      <Filter>Source Files\ui\common\edit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\common\filter\PFilterBarWidget.h">
+      <Filter>Source Files\ui\common\filter</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\common\filter\dialog\PExpWidget.h">
+      <Filter>Source Files\ui\common\filter\dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\common\filter\dialog\PFieldNameModel.h">
+      <Filter>Source Files\ui\common\filter\dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\common\filter\dialog\PFilterExpDialog.h">
+      <Filter>Source Files\ui\common\filter\dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\common\filter\dialog\POperatorModel.h">
+      <Filter>Source Files\ui\common\filter\dialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\status\PStatusBar.h">
+      <Filter>Source Files\ui\status</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\report\PReportView.h">
+      <Filter>Source Files\ui\content\report</Filter>
+    </CustomBuild>
+    <CustomBuild Include="logic\PReportStatus.h">
+      <Filter>Source Files\logic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\report\PReportCreaterBase.h">
+      <Filter>Source Files\ui\content\report</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\report\PReportCreater2.h">
+      <Filter>Source Files\ui\content\report</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\report\PReportRecordHandler.h">
+      <Filter>Source Files\ui\content\report</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\content\report\PExportReportDialog.h">
+      <Filter>Source Files\ui\content\report</Filter>
+    </CustomBuild>
+    <CustomBuild Include="logic\case\PCaseCatagoryHandler.h">
+      <Filter>Source Files\logic\case</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui\common\progress\PLineLoadingWidget.h">
+      <Filter>Source Files\ui\common\progress</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TODO.txt" />
+    <Text Include="handler\readme.txt">
+      <Filter>Source Files\handler</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="main.rc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="BrowserFirefoxFiles" >
+		<root name = "FirefoxData" base = "Users" path = "AppData$" keyNames = "AppData" OS="Windows7" version="35.0.1">
+			<target name =  "history">
+				<dir name = "Roaming">
+					<dir name = "Mozilla">
+						<dir name = "Firefox">
+							<dir name = "Profiles">
+								<dir name = "[0-9a-zA-Z]+\.default$">
+									<file name = ".*\.sqlite" />
+								</dir>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</target>
+			<target name ="cache2">
+				<dir name = "Local">
+					<dir name = "Mozilla">
+						<dir name = "Firefox">
+							<dir name = "Profiles">
+								<dir name = "[0-9a-zA-Z]+\.default$">
+									<dir name = "cache2">
+										<dir name = "entries">
+											<file name = "[a-zA-Z0-9]+" />	
+										</dir>								
+										<file name = "index" />
+									</dir>
+									<dir name = "Cache">
+										<file name = ".*"/>
+									</dir>
+								</dir>
+							</dir>
+						</dir>
+					</dir>				
+				</dir>
+			</target>
+		</root>
+		<root name = "FirefoxData" base = "Documents and Settings" path = "Application Data/Mozilla/Firefox/Profiles$" keyNames = "Profiles" OS="Windows XP" version="35.0.1;">
+			<target name =  "history">
+				<dir name = "[0-9a-zA-Z]+\.default$">
+					<file name = ".*\.sqlite" />
+				</dir>
+			</target>
+			<target name ="Cache2">
+				<dir name = "[0-9a-zA-Z]+\.default$">
+					<dir name = "cache2">
+						<file name = "index" />
+						<dir name = "entries">
+							<file name = "[a-z0-9A-Z]+" />	
+						</dir>																			
+					</dir>
+					<dir name = "Cache">
+						<file name = ".+"/>
+					</dir>
+				</dir>
+			</target>
+		</root>
+		
+</Application>

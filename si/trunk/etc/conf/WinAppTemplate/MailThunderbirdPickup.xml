@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="MailThunderbirdFiles">
+	<root name = "ThunderbirdData" base = "Users" path = "AppData/Roaming/Thunderbird/Profiles/[0-9a-z]+\.default$" keyNames = "default" OS="Windows7" version="31.0.0.5311; 52.8.0">
+		<target name =  "ImapMail">
+			<dir name = "ImapMail">
+				<dir name = ".*">
+					<file name = "INBOX" />
+				</dir>
+			</dir>
+			<dir name = "Mail">
+				<dir name = ".*">
+					<file name = ".*" />
+				</dir>
+			</dir>
+		</target>
+	</root>
+	<root name = "ThunderbirdData" base = "Documents and Settings" path = "Application Data/Thunderbird/Profiles/[0-9a-zA-Z]+\.default$" keyNames = "default" OS="Windows XP" version="31.0.0.5311">
+		<target name =  "ImapMail">
+			<dir name = "ImapMail">
+				<dir name = ".*">
+					<file name = "INBOX" />
+				</dir>
+			</dir>
+		</target>
+		<target name =  "Mail">
+			<dir name = "Mail">
+				<dir name = ".*">
+					<file name = ".*" />
+				</dir>
+			</dir>
+		</target>
+	</root>
+</Application>

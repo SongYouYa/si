@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryReader", "src\MemoryReader\MemoryReader.vcxproj", "{EAFF14A0-FDF6-43D3-9DDF-093A1CB96405}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "src\test\test.vcxproj", "{08E802AC-5259-44E8-8740-41055367C10C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EAFF14A0-FDF6-43D3-9DDF-093A1CB96405} = {EAFF14A0-FDF6-43D3-9DDF-093A1CB96405}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAFF14A0-FDF6-43D3-9DDF-093A1CB96405}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EAFF14A0-FDF6-43D3-9DDF-093A1CB96405}.Debug|Win32.Build.0 = Debug|Win32
+		{EAFF14A0-FDF6-43D3-9DDF-093A1CB96405}.Debug|x64.ActiveCfg = Debug|x64
+		{EAFF14A0-FDF6-43D3-9DDF-093A1CB96405}.Debug|x64.Build.0 = Debug|x64
+		{EAFF14A0-FDF6-43D3-9DDF-093A1CB96405}.Release|Win32.ActiveCfg = Release|Win32
+		{EAFF14A0-FDF6-43D3-9DDF-093A1CB96405}.Release|Win32.Build.0 = Release|Win32
+		{EAFF14A0-FDF6-43D3-9DDF-093A1CB96405}.Release|x64.ActiveCfg = Release|x64
+		{EAFF14A0-FDF6-43D3-9DDF-093A1CB96405}.Release|x64.Build.0 = Release|x64
+		{08E802AC-5259-44E8-8740-41055367C10C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{08E802AC-5259-44E8-8740-41055367C10C}.Debug|Win32.Build.0 = Debug|Win32
+		{08E802AC-5259-44E8-8740-41055367C10C}.Debug|x64.ActiveCfg = Debug|x64
+		{08E802AC-5259-44E8-8740-41055367C10C}.Debug|x64.Build.0 = Debug|x64
+		{08E802AC-5259-44E8-8740-41055367C10C}.Release|Win32.ActiveCfg = Release|Win32
+		{08E802AC-5259-44E8-8740-41055367C10C}.Release|Win32.Build.0 = Release|Win32
+		{08E802AC-5259-44E8-8740-41055367C10C}.Release|x64.ActiveCfg = Release|x64
+		{08E802AC-5259-44E8-8740-41055367C10C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="ChatQQFiles">
+	<root name = "QQData" base = "" path = "" keyNames = "" SubKeyNames = "&quot;QQ&quot; AND &quot;Registry.db&quot;" OS="Windows" version="7.2">
+		<target name =  "account">
+			<file name = ".*\.db" />
+		</target>
+	</root>
+	<root name = "QQData" base = "" path = "" keyNames = "Tencent Files" OS="Windows 8" version="9.0.3.772.402">
+		<target name =  "db">
+			<dir name = "[0-9]+">
+				<dir name = "Audio">
+					<dir name = "AudioInfo">
+						<file name = ".*\.db" />
+					</dir>
+				</dir>
+				<dir name = "RecommendFace">
+					<file name = ".*\.db" />
+				</dir>
+			</dir>
+			<!-- 所有的用户信息 -->
+			<file name = ".*\.db" />
+			<dir name = "All Users">
+				<dir name = "QQ">
+					<file name = ".*\.db-*" />
+				</dir>
+			</dir>
+		</target>
+	</root>
+</Application>

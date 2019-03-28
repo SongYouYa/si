@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="ChatFetionFiles">
+	<root name = "FetionData" base = "" path = "Fetion/[0-9]+$" keyNames = ""  SubKeyNames = "&quot;.dat&quot;" OS="Windows7" version="5.5.2810.0">
+		<target name =  "db">
+			<file name = ".*\.dat" />
+		</target>
+	</root>
+	<root name = "FetionData" base = "Documents and Settings" path = "My Documents/Fetion/[0-9]+$" keyNames = "" OS="Windows XP" version="5.5.2810.0">
+		<target name =  "db">
+			<file name = ".*\.dat" />
+		</target>
+	</root>
+	<root name = "FetionData" base = "" path = "" keyNames = "RCS" OS="Windows" version="7.4.99">
+		<target name =  "Feixindb">
+			<file name = ".*\.dat" />
+			<dir name = "[0-9]+">
+				<file name = ".*\.dat" />
+				<dir name = "RCSGroup">
+					<file name = ".*\.dat" />
+				</dir>
+				<dir name = "sqlite">
+					<file name = ".*\.db" />
+				</dir>
+			</dir>
+		</target>
+	</root>
+</Application>

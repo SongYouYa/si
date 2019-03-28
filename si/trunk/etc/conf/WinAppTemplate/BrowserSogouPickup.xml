@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="BrowserSogouFiles">
+	<root name = "SogouData" base = "Users" path = "AppData/Roaming/SogouExplorer$" keyNames = "SogouExplorer" OS="Windows7" version="5.2.5.16447">
+		<target name =  "history">
+			<file name = "HistoryUrl[0-9]+.db" />
+			<file name = "uhistory[0-9]+.db" />
+		</target>
+		<target name = "cookie">
+			<dir name = "Webkit">
+				<dir name = "Default">
+					<file name = "Cookies" />
+				</dir>
+			</dir>	
+		</target>
+		<target name ="cache">
+			<dir name = "Webkit">
+				<dir name = "Default">
+					<dir name = "Cache">
+						<file name = "data_[0-9]+" />
+						<file name = "f_[0-9a-zA-Z]+" />
+						<file name = "index" />
+					</dir>
+				</dir>
+			</dir>
+		</target>
+	</root>
+	<root name = "SogouData" base = "Documents and Settings" path = "Application Data/SogouExplorer$" keyNames = "SogouExplorer" OS="Windows XP" version="5.2.5.16447">
+		<target name =  "history">
+			<file name = "HistoryUrl[0-9]+.db" />
+			<file name = "uhistory[0-9]+.db" />
+		</target>
+		<target name = "cookie">
+			<dir name = "Webkit">
+				<dir name = "Default">
+					<file name = "Cookies" />
+				</dir>
+			</dir>	
+		</target>
+		<target name ="cache">
+			<dir name = "Webkit">
+				<dir name = "Default">
+					<dir name = "Cache">
+						<file name = "data_[0-9]+" />
+						<file name = "f_[0-9a-zA-Z]+" />
+						<file name = "index" />
+					</dir>
+				</dir>
+			</dir>
+		</target>
+	</root>
+</Application>

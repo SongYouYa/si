@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- displaytype: E_STRING, E_MEDIA-->
+<!-- mediatype: E_NONE, E_IMG, E_MEDIACOMMON -->
+<tables>
+	<table typename = "table.win.user_log_apps" display = "用户记录">
+	</table>
+	<table typename = "table.win.current_loginuser" display = "当前登录用户">
+		<field type = "string" name = "Caption" display = "用户" width = "200" default="true"/>
+		<field type = "time"   name = "Time" 	display = "登录时间" width = "200"/>
+	</table>
+	<table typename = "table.win.arp_statics" display = "ARP信息">
+		<field type = "string" name = "IPAddress" display = "Internet地址" width = "220" default="true"/>
+		<field type = "string" name = "PhyAddress" display = "物理地址" width = "220"/>
+		<field type = "string" name = "Type" display = "类型" width = "100"/>
+        <field type = "string" name = "Interface" display = "接口" width = "100"/>
+	</table>
+	<table typename = "table.win.login_session" display = "活动登录会话">
+		<field type = "string" name = "LogonSession" display = "登录会话" width = "100"/>
+		<field type = "string" name = "UserName" display = "用户名" width = "100"/>
+		<field type = "string" name = "AuthPackage" display = "认证机制" width = "100"/>
+		<field type = "int"    name = "Session" display = "会话标识" width = "100"/>
+		<field type = "string" name = "LogonType" display = "登录类型" width = "100"/>
+		<field type = "string" name = "SID" display = "SID" width = "100"/>
+		<field type = "time"    name = "LogonTime" display = "登录时间" width = "100"/>
+		<field type = "string" name = "LogonServer" display = "登录服务器" width = "100"/>
+		<field type = "string" name = "DNSDomain" display = "DNS服务器" width = "100"/>
+		<field type = "string" name = "UPN" display = "UPN" width = "100"/>
+		<field type = "int"  name = "ProcessID" display = "进程ID" width = "100"/>
+		<cloume type = "int"  name = "Path" display = "路径" width = "100"/>
+	</table>
+	<table typename = "table.win.accessed_shortcut" display = "访问过的快捷方式">
+		<field type = "string" name = "LinkPath" display = "路径" width = "580"/>	
+		<field type = "string" name = "AccessTime" display = "访问时间" width = "200"/>	
+	</table> 
+	<table typename = "table.win.clipboard" display = "剪贴板信息">
+		<field type = "string" name = "DataSource" display = "数据来源" width = "200"/>
+		<field type = "string" name = "FormatType" display = "格式" width = "200"/>
+		<field type = "int"    name = "DataLength" display = "数据长度" width = "100"/>
+		<field type = "string" name = "DataContent" display = "数据内容" width = "250"/>
+	</table>
+	<table typename = "table.win.process_info" display = "进程信息">
+		<field type = "int" name = "PID" display = "PID" width = "100"/>
+		<field type = "string" name = "Name" display = "映像名称" width = "200"/>
+        <field type = "string" name = "UserName" display = "用户名" width = "100"/>
+		<field type = "int" name = "WorkingSetSize" display = "内存（工作集）" width = "100"/>
+        <field type = "int"    name = "SessionID" display = "会话ID" width = "100"/>
+        <field type = "int"    name = "HandleCount" display = "句柄数" width = "100"/>
+        <field type = "int"    name = "ThreadCount" display = "线程数" width = "100"/>
+        <field type = "int"    name = "UserObject" display = "用户对象" width = "100"/>
+		<field type = "string" name = "Path" display = "映射路径名" width = "200"/>
+        <field type = "string" name = "Description" display = "描述" width = "100"/>
+	</table>
+	<table typename = "table.win.process_modules" display = "进程依赖模块">
+		<field type = "int"    name = "ProcessID" display = "PID" width = "100"/>
+		<field type = "string" name = "ProcessName" display = "映像名称" width = "100"/>
+		<field type = "string" name = "BaseAddress" display = "基地址" width = "100"/>
+		<field type = "string" name = "ModuleSize" display = "模块大小" width = "100"/>
+		<field type = "string" name = "Version" display = "版本" width = "100"/>
+		<field type = "string" name = "Commandline" display = "命令行" width = "100"/>
+		<field type = "string" name = "Path" display = "路径" width = "100"/>
+	</table>
+	
+	<table typename = "table.win.net_apps" display = "网络任务">
+	</table>
+	<table typename = "table.win.netfile" display = "网络文件信息">
+		<field type = "string" name = "FileName" display = "文件名" width = "100"/>
+		<field type = "string" name = "UserName" display = "用户名" width = "100"/>
+		<field type = "int" name = "Lockes" display = "文件锁"   width = "100" />
+		<field type = "string" name = "AccessAttribute" display = "访问属性" width = "100"/>
+	</table>
+	<table typename = "table.win.routerinfo" display = "路由信息">
+		<field type = "string" name = "NetWorkName" display = "网络目标" width = "150"/>
+		<field type = "string" name = "SubNetName" display = "网络掩码" width = "150"/> 
+		<field type = "string" name = "NetGate" display = "网关" width = "150"/>   
+		<field type = "string" name = "Interface" display = "接口" width = "150"/>   
+		<field type = "string" name = "phaseStep" display = "跃点数" width = "100"/>  
+        <field type = "string" name = "Type" display = "类型" width = "100"/>           
+	</table> 
+	<table typename = "table.win.windows_task" display = "计划任务信息">
+		<field type = "string" name = "Taskname" display = "任务名" width = "210"/>
+		<field type = "string" name = "NextRunTime" display = "下次运行时间" width = "150"/>
+		<field type = "string" name = "Status" display = "状态" width = "150"/>
+		<field type = "string" name = "DirName" display = "路径" width = "260"/>
+	</table>	
+	<table typename = "table.win.openedfile_handle" display = "打开文件进程句柄">
+		<field type = "string" name = "ProcessName" display = "映像名称" width = "100"/>
+		<field type = "int"    name = "ProcessID" display = "PID" width = "100"/>
+		<field type = "string" name = "HandleID" display = "句柄ID" width = "100"/>
+		<field type = "string" name = "HandleName" display = "句柄名" width = "330"/>
+		<field type = "string" name = "Type" display = "类型" width = "100"/>
+		<field type = "string" name = "ShareFlag" display = "共享标志" width = "100"/>  	  
+	</table>
+	 <table typename = "table.win.netshare_source" display = "共享资源信息">
+		<field type = "string" name = "NetName" display = "名称" width = "100"/>
+		<field type = "string" name = "Path" display = "路径" width = "250"/>
+		<field type = "string" name = "CurrentUses" display = "当前使用数" width = "100"/>
+		<field type = "string" name = "SecurityDiscriptor" display = "安全描述" width = "100"/>
+		<field type = "string" name = "Password" display = "密码" width = "100"/>	     
+	</table>
+	<table typename = "table.win.service_info" display = "服务信息">
+		<field type = "string" name = "ServiceName" display = "服务名" width = "220"/>
+		<field type = "string" name = "DisplayName" display = "显示名" width = "320"/> 
+		<field type = "string" name = "Status" display = "状态" width = "100"/>     	  
+	</table>
+	<table typename = "table.win.netactivatestate" display = "网络活动连接">
+		<field type = "int"    name = "Protocal" display = "协议" width = "150"/>
+		<field type = "string" name = "LocalIP" display = "本地IP及端口" width = "150"/>
+		<field type = "string" name = "RemoteIP" display = "远程IP及端口" width = "150"/>
+		<field type = "string" name = "State" display = "状态" width = "100"/>
+	</table>
+	<table typename = "table.win.netbios_state" display = "NETBIOS统计信息">
+		<field type = "string" name = "Name" display = "名称" width = "100"/>
+		<field type = "string" name = "Type" display = "类型" width = "100"/>
+		<field type = "string" name = "HostAddress" display = "主机地址" width = "100"/>
+		<field type = "int"    name = "Life" display = "生存时间" width = "100"/>
+		<field type = "string" name = "NodeName" display = "节点名" width = "100"/>
+		<field type = "string" name = "NodeIP" display = "节点IP" width = "100"/>
+	</table>
+	<table typename = "table.win.netsessions" display = "网络会话信息">
+		<field type = "string" name = "Computer" display = "电脑" width = "100"/>
+		<field type = "string" name = "user" display = "用户" width = "100"/>
+		<field type = "string" name = "ClientType" display = "客户类型" width = "100"/>
+		<field type = "int"    name = "IdleTime" display = "空闲时间" width = "100"/>
+		<field type = "int"    name = "SystemTime" display = "系统时间" width = "100"/>
+		<field type = "int"    name = "OpemNum" display = "OpemNum" width = "100"/>  	   
+	</table>
+	<table typename = "table.win.tcpipport" display = "TCP/IP端口信息">
+		<field type = "string" name = "protocol" display = "协议" width = "100"/>
+		<field type = "string" name = "ProcessName" display = "映像名称" width = "100"/> 
+		<field type = "int"    name = "ProcessID" display = "PID" width = "100"/>     
+		<field type = "string" name = "LocalIP" display = "本地IP及端口" width = "100"/> 
+		<field type = "string" name = "RemoteIP" display = "远程IP及端口" width = "100"/> 
+		<field type = "string" name = "Path" display = "路径" width = "100"/>   
+		<field type = "string" name = "Status" display = "状态" width = "100"/> 	 
+	</table>
+	<table typename = "table.win.NetInterface" display = "网络接口信息">
+		<cloume type = "string" name = "ConnecttionName" display = "连接名称" width = "150"/>
+		<cloume type = "string" name = "NetConfigName" display = "网络配置名" width = "100"/>
+		<cloume type = "string" name = "HostName" display = "计算机名" width = "80"/>
+		<cloume type = "string" name = "PhysicalAddress" display = "物理地址" width = "120"/>
+		<cloume type = "string" name = "IPAddr" display = "IP地址" width = "100"/>
+		<cloume type = "string" name = "SubNet" display = "子网掩码" width = "100"/>
+		<cloume type = "string" name = "NetGate" display = "网关" width = "100"/>
+		<cloume type = "string" name = "DHCPServer" display = "DHCP服务" width = "100"/>
+		<cloume type = "string" name = "DNSServer" display = "DNS服务" width = "100"/>
+		<cloume type = "string" name = "PrimiaryDNSSuffix" display = "主域名系统后缀" width = "100"/>
+		<cloume type = "string" name = "NodeType" display = "节点类型" width = "100"/>
+		<cloume type = "string" name = "IPRouteEnable" display = "路由软件开启" width = "100"/>
+		<cloume type = "string" name = "WinsProxyEnable" display = "代理服务" width = "100"/>
+		<cloume type = "string" name = "ConnectToSpecialDNSSuffix" display = "专用DNS后缀" width = "100"/>
+		<cloume type = "string" name = "Description" display = "描述" width = "150"/>
+		<cloume type = "string" name = "IsDHCP" display = "是否启动DHCP" width = "100"/>
+		<cloume type = "string" name = "IsAutoConfig" display = "是否自动配置" width = "100"/>
+		<cloume type = "time"   name = "LeaseObtained" display = "租约起始时间" width = "130"/>
+		<cloume type = "time"   name = "LeaseExpired" display = "租约过期时间" width = "130"/>
+	</table>
+	<table typename = "table.win.netconnection" display = "网络连接列表">
+		<field type = "string" name = "LocalIP" display = "本地IP" width = "100"/>
+		<field type = "string" name = "RemoteIP" display = "远程IP" width = "100"/>
+		<field type = "string" name = "Status" display = "状态" width = "100"/>
+		<field type = "string" name = "ConnecttionType" display = "连接状态" width = "100"/>
+	</table>
+	<table typename = "table.win.promiscport" display = "混杂模式端口">
+		<field type = "string" name = "Adapters" display = "网络适配器" width = "200"/>       
+	</table> 
+	<table typename = "table.win.netprotocol_statics" display = "网络协议统计">
+		<field type = "string" name = "ProtocolName" display = "协议" width = "160"/>
+		<field type = "string" name = "EntryName" display = "项目" width = "150"/>
+		<field type = "string" name = "Sent" display = "发送数据包数" width = "100"/>
+		<field type = "string" name = "Received" display = "接收数据包数" width = "100"/>
+		<field type = "string" name = "data" display = "数据" width = "100"/>
+	</table>
+	<table typename = "table.win.siautoruns" display = "自启动项与程序">
+		<field type = "string" name = "EntryLocation" display = "注册表键" width = "100"/>
+		<field type = "string" name = "Entry" display = "键值" width = "100"/>
+		<field type = "string" name = "Enabled" display = "是否可用" width = "100"/>
+		<field type = "string" name = "Description" display = "描述" width = "100"/>
+		<field type = "string" name = "Publisher" display = "提供者" width = "100"/>
+		<field type = "string" name = "ImagePath" display = "执行者路径" width = "100"/>
+		<field type = "string" name = "LaunchString" display = "参数串" width = "100"/>
+		<field type = "string" name = "MD5" display = "MD5值" width = "100"/>
+		<field type = "string" name = "SHA1" display = "SHA1值" width = "100"/>
+		<field type = "string" name = "SHA256" display = "SHA256值" width = "100"/>	  
+	</table> 
+	<table typename = "table.win.login_log" display = "用户登录记录">
+		<field type = "string" name = "UserName" display = "用户名" width = "150"/>	
+		<field type = "string" name = "Computer" display = "计算机名" width = "100"/>	
+		<field type = "string" name = "Domain" display = "工作组" width = "150"/>	
+		<field type = "string" name = "LogonTime" display = "登录时间" width = "150"/>	
+		<field type = "string" name = "LogoffTime" display = "退出时间" width = "150"/>	
+		<field type = "string" name = "Duration" display = "在线时长" width = "150"/>	
+	</table> 
+	<table typename = "table.win.recent_runprogram" display = "运行过的程序">
+		<field type = "string" name = "ProgramPath" display = "路径" width = "350"/>	
+		<field type = "time" name = "RunTime" display = "时间/键值" width = "180"/>	
+		<field type = "int" name = "AccessCount" display = "运行次数" width = "100"/>  
+	</table>
+	<table typename = "table.win.NetAccounts" display = "账户密码策略和域信息">
+		<cloume type = "string" name = "Name" display = "项目名" width = "300"/>
+		<cloume type = "string" name = "Value" display = "项目值" width = "150"/>
+	</table>
+	<table typename = "table.win.recent_openedfile" display = "最近打开文件列表">
+		<field type = "string" name = "FileName" display = "文件名" width = "150"/>
+		<field type = "string" name = "ext" display = "后缀名" width = "80"/>
+		<field type = "time" name = "OpenTime" display = "打开时间" width = "140"/>
+		<field type = "string" name = "FilePath" display = "文件路径" width = "200"/>
+	</table>
+	<table typename = "table.win.siautoruns" display = "自启动项与程序">
+		<field type = "string" name = "EntryLocation" display = "注册表键" width = "100"/>
+		<field type = "string" name = "Entry" display = "键值" width = "100"/>
+		<field type = "string" name = "Enabled" display = "是否可用" width = "100"/>
+		<field type = "string" name = "Description" display = "描述" width = "100"/>
+		<field type = "string" name = "Publisher" display = "提供者" width = "100"/>
+		<field type = "string" name = "ImagePath" display = "执行者路径" width = "100"/>
+		<field type = "string" name = "LaunchString" display = "参数串" width = "100"/>
+		<field type = "string" name = "MD5" display = "MD5值" width = "100"/>
+		<field type = "string" name = "SHA1" display = "SHA1值" width = "100"/>
+		<field type = "string" name = "SHA256" display = "SHA256值" width = "100"/>	  
+	</table>
+	<table typename = "table.win.samhash" display = "SAM哈希">
+		<field type = "string" name = "userName" display = "用户名" width = "100"/>
+		<field type = "string" name = "SID" display = "SID" width = "100"/>   
+		<field type = "string" name = "LMHash" display = "LM哈希" width = "275"/>   
+		<field type = "string" name = "NTHash" display = "NT哈希" width = "275"/>
+	</table>  	
+	<table typename = "table.win.autorun" display = "自启动项与程序">
+		<field type = "string" name = "EntryLocation" display = "注册表键" width = "100"/>
+		<field type = "string" name = "Entry" display = "键值" width = "100"/>
+		<field type = "string" name = "Enabled" display = "是否可用" width = "100"/>
+		<field type = "string" name = "Description" display = "描述" width = "100"/>
+		<field type = "string" name = "Publisher" display = "提供者" width = "100"/>
+		<field type = "string" name = "ImagePath" display = "执行者路径" width = "100"/>
+		<field type = "string" name = "LaunchString" display = "参数串" width = "100"/>
+		<field type = "string" name = "MD5" display = "MD5值" width = "100"/>
+		<field type = "string" name = "SHA1" display = "SHA1值" width = "100"/>
+		<field type = "string" name = "SHA256" display = "SHA256值" width = "100"/>	  
+	</table>   
+	<table typename = "table.win.windirtasks" display = "%WINDIR%tasks里的内容">
+		<field type = "string" name = "Name" display = "名称" width = "300"/>
+		<field type = "time" name = "CreateTime" display = "创建时间" width = "140"/>
+		<field type = "time" name = "AccessTime" display = "最后访问时间" width = "140"/>
+		<field type = "time" name = "ModifyTime" display = "最后运行时间" width = "140"/>
+	</table>
+	<table typename="table.win.osinfo" display="操作系统信息" icon="os.png">		
+		<field type = "string" name = "ComputerName" display = "计算机名" width = "100"/> 
+		<field type = "string" name = "SystemVersion" display = "系统版本" width = "200"/> 
+		<field type = "string" name = "RegisterOwner" display = "注册拥有者" width = "80"/> 
+		<field type = "string" name = "SystemRoot" display = "系统根目录" width = "80"/>   
+		<field type = "time" name = "InstallDate" display = "安装时间" width = "130"/>
+		<field type = "string" name = "IEVersion" display = "IE版本" width = "100"/> 	
+		<field type = "string" name = "ProductVersion" display = "产品版本" width = "80"/>     
+		<field type = "string" name = "ServerVersion" display = "服务版本" width = "100"/>
+	</table>
+	<table typename="table.win.applist_sys" display="系统软件" icon="applist.png">
+		<field type = "string" name = "displayname" display = "名称" width = "180"/>
+		<field type = "string" name = "publisher" display = "发布者" width = "150"/>
+		<field type = "string" name = "version" display = "版本" width = "80"/>
+		<field type = "string" name = "url" display = "支持链接" width = "150"/>
+	</table>
+	<table typename="table.win.applist_user" display="应用软件" icon="applist.png">
+		<field type = "string" name = "displayname" display = "名称" width = "180"/>
+		<field type = "string" name = "publisher" display = "发布者" width = "150"/>
+		<field type = "string" name = "version" display = "版本" width = "80"/>
+		<field type = "string" name = "url" display = "支持链接" width = "150"/>
+	</table>
+	
+	<table typename = "table.win.password_apps" display = "账户密码">
+	</table>
+	<table typename = "table.win.UserAccountPassword" display = "系统用户密码">
+		<field type = "string" name = "UserName" display = "用户名" width = "120"/>
+		<field type = "string" name = "Password" display = "密码" width = "120"/>
+		<field type = "string" name = "Package" display = "安全协议" width = "80"/>
+		<field type = "string" name = "Domain" display = "域名" width = "80"/>
+		<field type = "string" name = "lm" display = "LM哈希" width = "240"/>
+		<field type = "string" name = "ntlm" display = "NTLM哈希" width = "230"/>
+	</table>
+	<table typename = "table.win.BrowserPassword" display = "浏览器密码">
+		<field type = "string" name = "BrowserType" display = "浏览器类型" width = "120"/>
+		<field type = "string" name = "url" display = "网址" width = "180"/>
+		<field type = "string" name = "UserName" display = "用户名" width = "200"/> 
+		<field type = "string" name = "Password" display = "密码" width = "200"/>
+	</table>
+	<table typename = "table.win.MailPassword" display = "邮件密码">
+		<field type = "string" name = "MailType" display = "客户端类型" width = "200"/>
+		<field type = "string" name = "EmailAddress" display = "邮箱地址" width = "200"/>
+		<field type = "string" name = "Password" display = "密码" width = "200"/>
+	</table>
+	<table typename = "table.win.BulletPassword" display = "密码输入框密码">
+		<field type = "string" name = "WindowTitle" display = "窗口标题" width = "120"/>
+		<field type = "string" name = "Password" display = "密码" width = "150"/>
+		<field type = "string" name = "ProcessName" display = "程序名称" width = "150"/>
+		<field type = "string" name = "ProcessPath" display = "程序路径" width = "200"/>
+	</table>
+	<table typename = "table.win.IMPassword" display = "即时通讯密码">
+		<field type = "string" name = "SoftwareType" display = "软件类型" width = "200"/>
+		<field type = "string" name = "User" display = "用户名" width = "200"/>
+		<field type = "string" name = "Password" display = "密码" width = "200"/>
+	</table>
+	<table typename = "table.win.OutlookPstPassword" display = "Outlook个人文件夹密码">
+		<field type = "string" name = "CRCValue" display = "CRC校验值" width = "100"/>
+		<field type = "string" name = "Password1" display = "密码1" width = "120"/>
+		<field type = "string" name = "Password2" display = "密码2" width = "120"/>
+		<field type = "string" name = "Password3" display = "密码3" width = "120"/>
+		<field type = "string" name = "FilePath" display = "文件路径" width = "250"/>
+	</table>
+	<table typename = "table.win.VNCPassword" display = "VNC密码">
+		<field type = "string" name = "PasswordType" display = "密码类型" width = "120"/>
+		<field type = "string" name = "Version" display = "版本" width = "150"/>
+		<field type = "string" name = "Password" display = "密码" width = "200"/>
+	</table>
+	<table typename = "table.win.WirelessPassword" display = "无线密码">
+		<field type = "string" name = "NetworkName" display = "网络名称" width = "120"/>
+		<field type = "string" name = "KeyType" display = "密匙类型" width = "100"/>
+		<field type = "string" name = "PasswordAscii" display = "密码(Ascii)" width = "120"/>
+		<field type = "string" name = "AdapterName" display = "适配器名称" width = "120"/>
+		<field type = "string" name = "Encryption" display = "加密类型" width = "80"/>
+		<field type = "string" name = "ConnectionType" display = "连接类型" width = "80"/>
+		<field type = "string" name = "LastModified" display = "最后修改时间" width = "150"/>
+	</table>
+	<table typename = "table.win.DialupVPNPassword" display = "拨号/VPN密码">
+		<field type = "string" name = "EntryName" display = "连接名称" width = "120"/>
+		<field type = "string" name = "PhoneHost" display = "服务器地址" width = "120"/>
+		<field type = "string" name = "UserName" display = "用户名" width = "120"/>
+		<field type = "string" name = "Password" display = "密码" width = "120"/>
+		<field type = "string" name = "Domain" display = "域名" width = "120"/>
+		<field type = "string" name = "PasswordOwner" display = "密码拥有者" width = "120"/>
+		<field type = "string" name = "PasswordOwnerSid" display = "安全标示符(SID)" width = "250"/>
+	</table>
+</tables>

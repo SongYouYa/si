@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="WeChatFiles">
+	<root name = "WeChatData" base = "" path = "" keyNames = "WeChat Files" OS="Windows8" version="2.6.2.31">
+		<target name = "DATA">
+			<dir name=".+">
+				<dir name = "config">
+					<file name = ".*.dat" />
+					<file name = ".*.ini" />
+				</dir>
+				<dir name = "Msg">
+					<file name = ".*.db" />	
+				</dir>
+			</dir>
+		</target>
+	</root>
+</Application>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="CuteFtp">
+	<root name = "dat" base = "" path = "" SubKeyNames = "&quot;CIS_Queue.dat&quot;" OS="Windows" version="">
+		<target name =  "dat">
+			<file name = "CIS_Queue.dat" />
+		</target>
+	</root>
+	<root name = "cpx" base = "" path = "" SubKeyNames = "&quot;.cpx&quot;" OS="Windows" version="">
+		<target name =  "cpx">
+			<file name = ".*\.cpx" />
+		</target>
+	</root>
+	<root name = "que" base = "" path = "" SubKeyNames = "&quot;.que&quot;" OS="Windows" version="">
+		<target name =  "que">
+			<file name = ".*\.que" />
+		</target>
+	</root>
+	<root name = "dat" base = "" path = "" SubKeyNames = "&quot;sm.dat&quot;" OS="Windows" version="">
+		<target name =  "dat">
+			<file name = "sm.dat" />
+		</target>
+	</root>
+</Application>

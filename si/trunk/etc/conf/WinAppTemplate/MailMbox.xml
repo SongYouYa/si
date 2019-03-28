@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="mbox">
+	<root name = "mbox" base = "" path = "" SubKeyNames = "&quot;.mbox&quot;" OS="Windows" version="">
+		<target name =  "mbox">
+			<file name = ".*\.mbox" />
+		</target>
+	</root>
+</Application>

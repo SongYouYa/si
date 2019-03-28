@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="BainduNetdiskFiles">
+	<root name = "BaiduNetData" base = "" path = "" keyNames = "BaiduNetdisk" OS="Windows8" version="6.1.0">
+		<target name = "DAT">
+			<dir name="users">
+				<dir name="[a-z0-9]+">
+					<file name = ".+" />
+					<dir name=".+" />
+				</dir>
+				<file name = ".*.dat" />
+			</dir>
+		</target>
+	</root>
+</Application>

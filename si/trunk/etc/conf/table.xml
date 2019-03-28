@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- displaytype: E_STRING, E_MEDIA-->
+<!-- mediatype: E_NONE, E_IMG, E_MEDIACOMMON -->
+<!-- default用于不想显示全部public列时，一个列是default时，也应该是public的 -->
+<!-- decorator: E_SIZE(以大小形式显示), E_NOREPORT(在报告中不显示)-->
+<tables>
+	<table typename="table.case" display="案件" icon="">
+	</table>
+	<table typename="table.fsdisk" display="文件系统磁盘" icon="">
+		<field type = "string" name = "name" display = "文件名" width = "200" default="true"/>
+		<field type = "int" name = "size" display = "大小" width = "65" decorator="E_SIZE"/>
+		<field type = "string" name = "description" display = "描述" width = "200" default="false"/>
+	</table>
+	<table typename="table.fsvolume" display="文件系统卷" icon="">
+		<field type = "string" name = "name" display = "文件名" width = "100" default="true"/>
+		<field type = "int" name = "size" display = "大小" width = "65" decorator="E_SIZE"/>
+	</table>
+	<table typename="table.fsfile" display="文件系统文件" icon="">
+		<field type = "string" name = "name" display = "文件名" width = "200" default="true" defaultFilter="true"/>
+		<field type = "string" name = "ext" display = "扩展名" width = "55"/>
+		<field type = "int" name = "size" display = "大小" width = "80" decorator="E_SIZE"/>
+		<field type = "time" name = "create_time" display = "创建时间" width = "130" default="false"/>
+		<field type = "time" name = "access_time" display = "访问时间" width = "130" default="false"/>
+		<field type = "time" name = "modify_time" display = "修改时间" width = "130"/>
+		<field type = "int" name = "dir" display = "目录" doc="是否目录" public="false"/>
+		<field type = "int" name = "appfile" display = "应用数据文件" doc="1表示是，0表示否" public="false"/>
+		<field type = "int" name = "encrypt" display = "加密文件" doc="1表示是，0表示否" public="false"/>
+	</table>
+	<table typename="table.softwareinfo" display="工具软件" icon="">
+		<field type = "string" name = "name" display = "工具名称" width = "120"/>
+		<field type = "string" name = "version" display = "版本" width = "100"/>
+		<field type = "string" name = "productor" display = "厂商" width = "150"/>
+	</table>
+	<table typename="table.caseinfo" display="案件信息" icon="">
+		<field type = "string" name = "operation" display = "操作" width = "50" decorator="E_NOREPORT"/>
+		<field type = "string" name = "case_name" display = "案件名称" width = "100"/>
+		<field type = "string" name = "case_number" display = "案件编号" width = "150"/>
+		<field type = "string" name = "case_type" display = "案件类型" width = "120"/>
+		<field type = "time"   name = "real_time" display = "时间" width = "130"/>
+		<field type = "string" name = "investagator" display = "调查人" width = "80"/>
+		<field type = "string" name = "case_witness" display = "见证人" width = "80"/>
+		<field type = "string" name = "case_address" display = "现场地址" width = "120"/>
+		<field type = "string" name = "case_suspect" display = "对象姓名" width = "80"/>
+		<field type = "string" name = "case_dir" display = "保存路径" width = "150"/>
+		<field type = "string" name = "remark" display = "案件描述" width = "150"/>	
+	</table>
+	<table typename="table.screenvideo" display="屏幕录制" icon="">
+		<field type = "string" name = "recordVideopath" display = "录像保存路径" width = "50"/>
+		<field type = "time" name = "record_start_time" display = "录像开始时间" width = "150"/>
+		<field type = "time" name = "record_endtime" display = "录像结束时间" width = "150"/>
+	</table>
+	<table typename="table.screenshot" display="屏幕截屏" icon="">
+		<field type = "string" name = "savePath" display = "保存路径" width = "200"/>
+		<field type = "time" name = "curTime" display = "时间" width = "130"/>
+	</table>
+	<table typename="table.fileexportfolder" display="文件导出" icon="">
+	</table>
+	<table typename="table.fileexport" display="导出文件" icon="">
+		<field type = "string" name = "filename" display = "文件名" width = "50"/>
+		<field type = "time" name = "create_time" display = "创建时间" width = "50"/>
+		<field type = "time" name = "modify_time" display = "修改时间" width = "50"/>
+		<field type = "time" name = "access_time" display = "最后访问时间" width = "50"/>
+		<field type = "string" name = "filedir" display = "保存路径" width = "50"/>
+	</table>
+	<table typename="table.fileexportlist" display="导出文件列表" icon="">
+		<field type = "string" name = "filename" display = "文件名" width = "50"/>
+		<field type = "time" name = "export_time" display = "导出时间" width = "50"/>
+		<field type = "int" name = "size" display = "大小" width = "50"/>
+		<field type = "string" name = "filepath" display = "保存路径" width = "50"/>
+	</table>
+	<table typename="table.bkstatistics" display="统计信息" icon="">
+		<field type = "string" name = "checkedcount" display = "扫描文件数量" width = "150"/>
+		<field type = "string" name = "matchedcount" display = "命中数量" width = "150"/>
+	</table>
+	<table typename="table.diskinfo" display="硬盘信息" icon="disk.png">
+		<field type = "string" name = "name" display = "名称" width = "80"/>
+		<field type = "string" name = "model" display = "型号" width = "150"/>
+		<field type = "int" name = "size" display = "大小" width = "120" decorator="E_SIZE"/>
+		<field type = "string" name = "SerialNumber" display = "序列号" width = "150"/>
+		<field type = "string" name = "type" display = "设备类型" width = "100"/>  
+	</table>
+	<table typename="table.partitioninfo" display="分区信息" icon="volume.png">
+		<field type = "string" name = "name" display = "名称" width = "80"/>
+		<field type = "string" name = "MountPoint" display = "挂载点" width = "80"/> 
+		<field type = "string" name = "filesystem" display = "文件系统" width = "70"/>
+		<field type = "int" name = "size" display = "大小" width = "100" decorator="E_SIZE"/>
+		<field type = "int" name = "available" display = "可用大小" width = "100" decorator="E_SIZE"/>
+	</table>
+	<table typename="table.devicetask" display="磁盘任务" icon="">
+	</table>
+	<table typename="table.deviceclone" display="磁盘克隆" icon="">
+		<field type = "string" name = "source_media" display = "源磁盘" width = "80" />
+		<field type = "string" name = "target_media" display = "目标磁盘" width = "80"/>
+		<field type = "int" name = "source_size" display = "源大小" width = "80" decorator="E_SIZE"/>
+		<field type = "int" name = "current_size" display = "已完成大小" width = "80" decorator="E_SIZE"/>
+		<field type = "string" name = "hash" display = "Hash值" width = "100"/>
+	</table>
+	<table typename="table.deviceimage" display="获取镜像" icon="">
+		<field type = "string" name = "source_media" display = "源磁盘" width = "80" />
+		<field type = "string" name = "dst_path" display = "目标路径" width = "120"/>
+		<field type = "string" name = "image_type" display = "镜像格式" width = "60"/>
+		<field type = "int" name = "split_size" display = "分片大小" width = "80" decorator="E_SIZE"/>
+		<field type = "int" name = "source_size" display = "源大小" width = "80" decorator="E_SIZE"/>
+		<field type = "int" name = "current_size" display = "已完成大小" width = "80" decorator="E_SIZE"/>
+		<field type = "string" name = "hash" display = "Hash值" width = "100"/>
+	</table>
+	<table typename="table.deviceerase" display="磁盘擦除" icon="">
+		<field type = "string" name = "target_media" display = "目标磁盘" width = "80"/>
+		<field type = "string" name = "erase_type" display = "擦除方式" width = "60"/>
+		<field type = "int" name = "target_size" display = "磁盘大小" width = "80" decorator="E_SIZE"/>
+		<field type = "int" name = "current_size" display = "已完成大小" width = "80" decorator="E_SIZE"/>
+	</table>
+	<table typename="table.approot" display="活动记录" icon="">
+	</table>
+	<table typename="table.hardwareinfo" display="存储设备信息" icon="">
+	</table>
+	<table typename="table.systemfolder" display="操作系统名称" icon="">
+		<field type = "string" name = "name" display = "名称" width = "120"/>
+		<field type = "handle" name = "pvolume" display = "卷句柄" width = "80" public="false"/>
+	</table>
+	<table typename="table.reportsign" display="落款（签字）" icon="">
+	</table>
+</tables>

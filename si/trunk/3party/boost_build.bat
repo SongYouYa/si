@@ -1,0 +1,1 @@
+.\b2 --toolset=msvc-10.0 address-model=64 stage -q threading=multi debug release link=static runtime-link=shared  --with-system --with-filesystem --with-date_time --with-program_options --with-regex --with-thread --with-serialization --with-atomic

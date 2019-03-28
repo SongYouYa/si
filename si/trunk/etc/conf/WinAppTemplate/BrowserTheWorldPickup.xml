@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="BrowserTheWorld6Files">
+	<root name = "TheWorld[0-6]Data" base = "" path = "TheWorld[0-6]/User Data/Default$" keyNames = "Default" OS="Windows" version="6.2.0.128">
+		<target name =  "history">
+			<file name = "History" />
+		</target>
+		<target name = "cookie">
+			<file name = "Cookies" />
+		</target>
+		<target name ="cache">
+			<dir name = "Cache">
+				<file name = "data_[0-9]" />
+				<file name = "f_[0-9a-zA-Z]+" />
+				<file name = "index" />
+			</dir>
+		</target>
+	</root>
+</Application>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="FlashFxp">
+	<root name = "fqf" base = "" path = "" SubKeyNames = "&quot;.fqf&quot;" OS="Windows" version="">
+		<target name =  "fqf">
+			<file name = ".*.fqf" />
+		</target>
+	</root>
+</Application>

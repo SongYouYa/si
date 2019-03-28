@@ -1,0 +1,19 @@
+{
+	"tabs":{
+		#"help_tab_image_product": {
+		#	"icon": ":/styles/icons/helptab/image_product.png"
+		#},
+		#"help_tab_generate_report": {
+		#	"icon": ":/styles/icons/helptab/generate_report.png"
+		#},
+		#"help_tab_close_task": {
+		#	"icon": ":/styles/icons/helptab/close_task.png"
+		#},
+		#"help_tab_contact_us": {
+		#	"icon": ":/styles/icons/helptab/contact_us.png"
+		#},
+		#"help_tab_about": {
+		#	"icon": ":/styles/icons/helptab/about.png"
+		#}
+	}
+}

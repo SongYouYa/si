@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="DownloadBitCometFiles">
+	<root name = "BitCometData" base = "BitComet" path = "" keyNames = "" OS="Windows" version="1.38.3">
+		<target name =  "db">
+			<dir name = "cache">
+				<file name = ".*\.db" />
+			</dir>
+		</target>
+	</root>
+	<root name = "BitCometData" base = "Users" path = "AppData/Roaming/BitComet" keyNames = "BitComet" OS="Windows8" version="1.50">
+		<target name =  "xml_db">
+			<file name = ".*\.xml.*" />
+			<dir name = "cache">
+				<file name = ".*\.db" />
+			</dir>
+		</target>
+	</root>
+</Application>

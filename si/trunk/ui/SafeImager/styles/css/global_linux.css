@@ -1,0 +1,5 @@
+.QFrame#window_container { 
+	border: 1px solid #3F518A; 
+	border-radius: 4px; 
+	background-color: white;
+}

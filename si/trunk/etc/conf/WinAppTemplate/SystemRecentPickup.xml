@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="SystemRecentOpenedFiles">
+	<root name = "RecentFiles" base = "Users" path = "/AppData/Roaming/Microsoft/Windows/Recent$" keyNames = "Recent" OS="Windows" version="7">
+		<target name =  "Recent">
+			<file name = ".*\.txt\.lnk$" />
+			<file name = ".*\.ini\.lnk$" />
+			<file name = ".*\.xml\.lnk$" />
+			<file name = ".*\.htm[l]\.lnk$" />
+			<file name = ".*\.pdf\.lnk$" />
+			<file name = ".*\.doc[x]?\.lnk$" />
+			<file name = ".*\.xls[x]?\.lnk$" />
+			<file name = ".*\.ppt[x]?\.lnk$" />
+			<file name = ".*\.png\.lnk$" />
+			<file name = ".*\.jpg\.lnk$" />
+			<file name = ".*\.gif\.lnk$" />
+			<file name = ".*\.wps\.lnk$" />
+			<file name = ".*\.mhtml\.lnk$" />
+			<file name = ".*\.rtf\.lnk$" />
+			<file name = ".*\.ASD\.lnk$" />
+			<file name = ".*\.dps\.lnk$" />
+			<file name = ".*\.et\.lnk$" />
+			<file name = ".*\.dpt\.lnk$" />
+			<file name = ".*\.pot\.lnk$" />
+			<file name = ".*\.pps\.lnk$" />
+		</target>
+
+	</root>
+	<root name = "RecentFiles" base = "Documents and Settings" path = "/Recent$" keyNames = "Recent" OS="Windows" version="XP">
+		<target name =  "Recent">
+			<file name = ".*\.txt\.lnk$" />
+			<file name = ".*\.ini\.lnk$" />
+			<file name = ".*\.xml\.lnk$" />
+			<file name = ".*\.htm[l]\.lnk$" />
+			<file name = ".*\.pdf\.lnk$" />
+			<file name = ".*\.doc[x]?\.lnk$" />
+			<file name = ".*\.xls[x]?\.lnk$" />
+			<file name = ".*\.ppt[x]?\.lnk$" />
+			<file name = ".*\.png\.lnk$" />
+			<file name = ".*\.jpg\.lnk$" />
+			<file name = ".*\.gif\.lnk$" />
+			<file name = ".*\.wps\.lnk$" />
+			<file name = ".*\.mhtml\.lnk$" />
+			<file name = ".*\.rtf\.lnk$" />
+			<file name = ".*\.ASD\.lnk$" />
+			<file name = ".*\.dps\.lnk$" />
+			<file name = ".*\.et\.lnk$" />
+			<file name = ".*\.dpt\.lnk$" />
+			<file name = ".*\.pot\.lnk$" />
+			<file name = ".*\.pps\.lnk$" />
+		</target>
+	</root>
+</Application>

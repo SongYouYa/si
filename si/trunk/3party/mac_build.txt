@@ -1,0 +1,52 @@
+
+
+# 一般库加一下变异选项
+make CFLAGS="-mmacosx-version-min=10.10" CXXFLAGS="-mmacosx-version-min=10.10"
+
+openssl:
+make CFLAGS="-mmacosx-version-min=10.10 -DOPENSSLDIR=\"\\\"/user/local/ssl\\\"\" -DENGINESDIR=\"\\\"/usr/local/lib/engines-1.1\\\"\"" CXXFLAGS="-mmacosx-version-min=10.10 -DOPENSSLDIR=\"\\\"/user/local/ssl\\\"\" -DENGINESDIR=\"\\\"/usr/local/lib/engines-1.1\\\"\""
+
+
+pugixml:
+在CMakeLists.txt中添加
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -mmacosx-version-min=10.10")
+#set(CMAKE_C_CFLAGS "${CMAKE_C_FLAGS} -mmacosx-version-min=10.10")
+
+cmake -DCMAKE_CXX_FLAGS="-mmacosx-version-min=10.10" -DCMAKE_C_FLAGS="-mmacosx-version-min=10.10" .
+
+
+boost:
+./b2 cxxflags="-mmacosx-version-min=10.10" cflags="-mmacosx-version-min=10.10" stage --layout=tagged -q threading=multi variant=release link=static runtime-link=shared  --with-system --with-date_time --with-filesystem --with-program_options --with-regex --with-thread --with-iostreams
+
+
+afflib:
+由于用到了旧版本的openssl，所以需要编译为动态库，防止和其他版本openssl冲突
+安装brew, autoconf, automake, libtool
+bootstrap
+openssl:
+./Configure darwin64-x86_64-cc，然后打开MakeFile，在CFLAG行添加-mmacosx-version-min=10.10
+make make install
+aff:
+CC=clang CXX=clang++ CFLAGS="-mmacosx-version-min=10.10 -I/usr/local/ssl/include" CXXFLAGS="-mmacosx-version-min=10.10 -I/usr/local/ssl/include" LDFLAGS="-L/usr/local/ssl/lib" ./configure
+
+
+zlib:
+./configure
+在MakeFile：
+CC=clang 
+CFLAGS中添加 -mmacosx-version-min=10.10
+make
+
+minizip：
+cd contrib/minizip/
+MakeFile：
+AR = ar rcs
+CFLAGS中添加 -mmacosx-version-min=10.10
+Z_OBJS = miniunz.o unzip.o ioapi.o minizip.o zip.o
+all： minizip.a
+minizip.a: $(Z_OBJS)
+	$(AR) libminizip.a $(Z_OBJS)
+
+
+libarchive:
+./configure --prefix=/usr/local/libarchive

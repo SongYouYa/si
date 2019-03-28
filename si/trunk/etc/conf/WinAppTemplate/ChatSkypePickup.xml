@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="ChatSkypeFiles" >
+	<root name = "SkypeData" base = "Documents and Settings" path = "Application Data/Skype/.*$" keyNames = "" OS="Windows XP" version="7.4.99">
+		<target name =  "db">
+			<file name = "main.db" />
+		</target>
+	</root>
+	<root name = "SkypeFiles" base = "Users" path = "AppData/Roaming/Skype$" keyNames = "Skype" OS="Windows8" version="7.41.99.101">
+		<target name = "DATA">
+			<dir name = "live[#].*">		
+				<file name = ".*\.db.*" />
+			</dir>
+		</target>
+	</root>
+</Application>

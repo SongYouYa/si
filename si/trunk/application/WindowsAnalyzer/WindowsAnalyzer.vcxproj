@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{158D9840-2273-4232-8FE6-9DAEC820E28B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>common</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)\lib\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\build-temp\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)\lib\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\build-temp\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;WIN_APP_EXPORTS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;_CRT_NON_CONFORMING_SWPRINTFS;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(QTDIR)\include;$(SolutionDir)include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/Zm120 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Platform)\$(Configuration)\;$(SolutionDir)lib\$(Platform);$(QtDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sidevice.lib;sicommon.lib;base.lib;sisystem.lib;utility.lib;siutility.lib;siio.lib;task.lib;siregistry.lib;siwinregistry.lib;filesystemshell.lib;CommonAnalyzer.lib;PasswordAnalyzer.lib;Qt5Cored.lib;Qt5Xmld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /D /Q /Y /C "$(TargetPath)" "$(SolutionDir)\bin\$(Platform)\$(Configuration)\bin\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;WIN_APP_EXPORTS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(QTDIR)\include;$(SolutionDir)include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/Zm120 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Platform)\$(Configuration)\;$(SolutionDir)lib\$(Platform);$(QtDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sidevice.lib;sicommon.lib;base.lib;sisystem.lib;utility.lib;siutility.lib;siio.lib;task.lib;siregistry.lib;siwinregistry.lib;filesystemshell.lib;CommonAnalyzer.lib;PasswordAnalyzer.lib;Qt5Core.lib;Qt5Xml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /D /Q /Y /C "$(TargetPath)" "$(SolutionDir)\bin\$(Platform)\$(Configuration)\bin\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\application\WindowsAnalyzer\globals.h" />
+    <ClInclude Include="..\..\include\application\WindowsAnalyzer\PWinCallbackFactory.h" />
+    <ClInclude Include="..\..\include\application\WindowsAnalyzer\PWindowsAnalyzer.h" />
+    <ClInclude Include="basic\PApplistParser.h" />
+    <ClInclude Include="basic\POsBaseParser.h" />
+    <ClInclude Include="material\PFsRegFile.h" />
+    <ClInclude Include="material\PRegParserUtils.h" />
+    <ClInclude Include="material\TimeConverter.h" />
+    <ClInclude Include="net\ARPInfoHelper.h" />
+    <ClInclude Include="net\NetAccountsParser.h" />
+    <ClInclude Include="net\NetActiveStatHelper.h" />
+    <ClInclude Include="net\NetBiosStatHelper.h" />
+    <ClInclude Include="net\NetFilesInformationHelper.h" />
+    <ClInclude Include="net\NetProtocolStatisticsHelper.h" />
+    <ClInclude Include="net\NetSessionsHelper.h" />
+    <ClInclude Include="net\NetShareSourceInfoHelper.h" />
+    <ClInclude Include="net\NetUseHelper.h" />
+    <ClInclude Include="net\NetworkInterfaceHelper.h" />
+    <ClInclude Include="net\PortInformation.h" />
+    <ClInclude Include="net\PortInformationHelper.h" />
+    <ClInclude Include="net\PromiscPortHelper.h" />
+    <ClInclude Include="net\RouterInformationHelper.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="userlog\AccessShortCutHelper.h" />
+    <ClInclude Include="userlog\AutoRunsHelper.h" />
+    <ClInclude Include="userlog\ClipboardInformationHelper.h" />
+    <ClInclude Include="userlog\FileVersionInfo.h" />
+    <ClInclude Include="userlog\ListDirTasksHelper.h" />
+    <ClInclude Include="userlog\LogonListInfoHelper.h" />
+    <ClInclude Include="userlog\LogonSessionsInformationHelper.h" />
+    <ClInclude Include="userlog\ModulesReliedByProcessHelper.h" />
+    <ClInclude Include="userlog\OSLocater.h" />
+    <ClInclude Include="userlog\PLoginUserHelper.h" />
+    <ClInclude Include="userlog\PRecentFilesAnalyzer.h" />
+    <ClInclude Include="userlog\ProcessHandleHelper.h" />
+    <ClInclude Include="userlog\ProcessInfoHelper.h" />
+    <ClInclude Include="userlog\RecentRunProgAnalyzer.h" />
+    <ClInclude Include="userlog\SAMPasswordHelper.h" />
+    <ClInclude Include="userlog\ScheduleTasksAnalyzer.h" />
+    <ClInclude Include="userlog\ServiceInfoHelper.h" />
+    <ClInclude Include="userlog\SetPrivilege.h" />
+    <ClInclude Include="userlog\Win32WMIHelper.h" />
+    <ClInclude Include="userlog\WindirTasksAnalyzer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="basic\PApplistParser.cpp" />
+    <ClCompile Include="basic\POsBaseParser.cpp" />
+    <ClCompile Include="material\PFsRegFile.cpp" />
+    <ClCompile Include="material\PRegParserUtils.cpp" />
+    <ClCompile Include="material\TimeConverter.cpp" />
+    <ClCompile Include="net\ARPInfoHelper.cpp" />
+    <ClCompile Include="net\NetAccountsParser.cpp" />
+    <ClCompile Include="net\NetActiveStatHelper.cpp" />
+    <ClCompile Include="net\NetBiosStatHelper.cpp" />
+    <ClCompile Include="net\NetFilesInformationHelper.cpp" />
+    <ClCompile Include="net\NetProtocolStatisticsHelper.cpp" />
+    <ClCompile Include="net\NetSessionsHelper.cpp" />
+    <ClCompile Include="net\NetShareSourceInfoHelper.cpp" />
+    <ClCompile Include="net\NetUseHelper.cpp" />
+    <ClCompile Include="net\NetworkInterfaceHelper.cpp" />
+    <ClCompile Include="net\PortInformationHelper.cpp" />
+    <ClCompile Include="net\PromiscPortHelper.cpp" />
+    <ClCompile Include="net\RouterInformationHelper.cpp" />
+    <ClCompile Include="PWinCallbackFactory.cpp" />
+    <ClCompile Include="PWindowsAnalyzer.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="userlog\AccessShortCutHelper.cpp" />
+    <ClCompile Include="userlog\AutoRunsHelper.cpp" />
+    <ClCompile Include="userlog\ClipboardInformationHelper.cpp" />
+    <ClCompile Include="userlog\FileVersionInfo.cpp" />
+    <ClCompile Include="userlog\ListDirTasksHelper.cpp" />
+    <ClCompile Include="userlog\LogonListInfoHelper.cpp" />
+    <ClCompile Include="userlog\LogonSessionsInformationHelper.cpp" />
+    <ClCompile Include="userlog\ModulesReliedByProcessHelper.cpp" />
+    <ClCompile Include="userlog\OSLocater.cpp" />
+    <ClCompile Include="userlog\PLoginUserHelper.cpp" />
+    <ClCompile Include="userlog\PRecentFilesAnalyzer.cpp" />
+    <ClCompile Include="userlog\ProcessHandleHelper.cpp" />
+    <ClCompile Include="userlog\ProcessInfoHelper.cpp" />
+    <ClCompile Include="userlog\RecentRunProgAnalyzer.cpp" />
+    <ClCompile Include="userlog\SAMPasswordHelper.cpp" />
+    <ClCompile Include="userlog\ScheduleTasksAnalyzer.cpp" />
+    <ClCompile Include="userlog\ServiceInfoHelper.cpp" />
+    <ClCompile Include="userlog\SetPrivilege.cpp" />
+    <ClCompile Include="userlog\Win32WMIHelper.cpp" />
+    <ClCompile Include="userlog\WindirTasksAnalyzer.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

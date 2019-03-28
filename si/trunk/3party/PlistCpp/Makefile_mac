@@ -1,0 +1,24 @@
+
+CXX = clang++
+
+AR = ar rcs
+RM = -rm -rf
+
+all : myplistcpp
+
+INCLUDE = -I./src -I./include
+
+CXXFLAGS = -Wall -O -fPIC
+CXXFLAGS += -mmacosx-version-min=10.10
+
+SRCS = $(wildcard src/*.cpp)
+OBJS = $(patsubst %.cpp,%.o, $(SRCS))
+
+%.o:%.cpp
+	$(CXX) -c $(CXXFLAGS) $(INCLUDE)  $< -o $@
+
+myplistcpp : $(OBJS)
+	$(AR) libplistcpp.a $(OBJS)
+	
+clean:
+	$(RM) src/*.o

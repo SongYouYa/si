@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="UserFile">
+	<root name = "userfile" base = "Users/*" path = "" OS = "mac" version="">
+		<target name =  "log">
+			<dir name = ".+"/>
+			<file name = ".+"/>
+		</target>
+	</root>
+
+</Application>

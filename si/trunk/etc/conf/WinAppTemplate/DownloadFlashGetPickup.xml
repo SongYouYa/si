@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="DownloadFlashGetFiles">
+	<root name = "FlashGetData" base = "Users" path = "AppData/Roaming/FlashGet$" keyNames = "FlashGet" OS="Windows7" version="3.7.0">
+		<target name =  "db">
+			<dir name = "[0-9A-Za-z]+">
+				<dir name = "dat">
+					<file name = ".*\.db" />
+				</dir>
+			</dir>
+		</target>
+	</root>
+	<root name = "FlashGetData" base = "Documents and Settings" path = "Application Data/FlashGet$" keyNames = "FlashGet" OS="Windows XP" version="3.7.0">
+		<target name =  "db">
+			<dir name = "[0-9A-Za-z]+">
+				<dir name = "dat">
+					<file name = ".*\.db" />
+				</dir>
+			</dir>
+		</target>
+	</root>
+</Application>

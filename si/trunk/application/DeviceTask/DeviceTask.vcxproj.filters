@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{060a2a4e-0f3c-41f3-bdfc-c1319e792cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\material">
+      <UniqueIdentifier>{8615954d-2e0d-4d87-b42c-0fd29ac35f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cache">
+      <UniqueIdentifier>{5d826921-9ec8-4e01-ae21-7eaf45eef69e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public Headers\cache">
+      <UniqueIdentifier>{d292d5ef-de29-4161-ac17-69d034eb0be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fileoper">
+      <UniqueIdentifier>{c02ebb14-6977-4edf-9c64-8e34b6e6550a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\application\DeviceTask\globals.h">
+      <Filter>Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\application\DeviceTask\PDeviceCloneTask.h">
+      <Filter>Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\application\DeviceTask\PDeviceEraseTask.h">
+      <Filter>Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\application\DeviceTask\PDeviceImageTask.h">
+      <Filter>Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\application\DeviceTask\PDeviceTaskParam.h">
+      <Filter>Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="material\PSplitDdFile.h">
+      <Filter>Source Files\material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\application\DeviceTask\PScreenRecordTask.h">
+      <Filter>Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\application\DeviceTask\cache\PCloneTaskCache.h">
+      <Filter>Public Headers\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="cache\PCloneTaskCacheImpl.h">
+      <Filter>Source Files\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\application\DeviceTask\cache\PImageTaskCache.h">
+      <Filter>Public Headers\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="cache\PImageTaskCacheImpl.h">
+      <Filter>Source Files\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\application\DeviceTask\PExportFilesTask.h">
+      <Filter>Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fileoper\PFileHandleHelper.h">
+      <Filter>Source Files\fileoper</Filter>
+    </ClInclude>
+    <ClInclude Include="fileoper\PLogger.h">
+      <Filter>Source Files\fileoper</Filter>
+    </ClInclude>
+    <ClInclude Include="PSiDeviceTaskCommon.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PDeviceCloneTask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PDeviceEraseTask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PDeviceImageTask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="material\PSplitDdFile.cpp">
+      <Filter>Source Files\material</Filter>
+    </ClCompile>
+    <ClCompile Include="PScreenRecordTask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cache\PCloneTaskCacheImpl.cpp">
+      <Filter>Source Files\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="cache\PCloneTaskCache.cpp">
+      <Filter>Source Files\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="cache\PImageTaskCache.cpp">
+      <Filter>Source Files\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="cache\PImageTaskCacheImpl.cpp">
+      <Filter>Source Files\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="PExportFilesTask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fileoper\PFileHandleHelper.cpp">
+      <Filter>Source Files\fileoper</Filter>
+    </ClCompile>
+    <ClCompile Include="fileoper\PLogger.cpp">
+      <Filter>Source Files\fileoper</Filter>
+    </ClCompile>
+    <ClCompile Include="PSiDeviceTaskCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

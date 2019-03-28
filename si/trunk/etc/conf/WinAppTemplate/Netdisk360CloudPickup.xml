@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="360CloudFiles">
+	<root name = "360CloudData" base = "Users" path = "/AppData/Roaming/360CloudEnterprise" keyNames = "360CloudEnterprise" OS="Windows8" version="2.0.2.1137">
+		<target name = "DB">
+				<dir name="[a-z0-9]+">
+					<file name = ".*.dat" />	
+					<file name = ".*.db" />	
+				</dir>
+			<file name = ".*.dat" />
+		</target>
+	</root>
+	<root name = "uiconfig" base = "" path = "" keyNames = "360CloudUI" OS="Windows" version="">
+		<target name = "ini">
+			<dir name="[0-9]+">
+				<file name = ".*.db" />
+				<file name = ".*.dat" />
+				<file name = ".*.ini" />
+			</dir>
+			<file name = "uiconfig.ini" />
+		</target>
+	</root>
+</Application>

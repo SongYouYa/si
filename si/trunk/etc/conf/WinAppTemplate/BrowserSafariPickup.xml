@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="BrowserSafariFiles">
+	<root name = "SafariData" base = "Users" path = "AppData$" keyNames = "AppData" OS="Windows7" version="5.34.57.2">
+		<target name =  "history">
+			<dir name = "Local">
+				<dir name = "Apple Computer">
+					<dir name = "Safari">
+						<dir name = "History">
+							<file name = "_[0-9]*\.cfs$" />
+							<file name = "deletable" />
+							<file name = "segments" />
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</target>
+		<target name ="cache">
+			<dir name = "Local">
+				<dir name = "Apple Computer">
+					<dir name = "Safari">
+						<file name = "Cache.db" />
+					</dir>
+				</dir>
+			</dir>
+		</target>
+		<target name = "cookie">
+			<dir name = "Roaming">
+				<dir name = "Apple Computer">
+					<dir name = "Safari">
+						<dir name = "Cookies">
+							<file name = "Cookies.binarycookies" />
+						</dir>
+					</dir>
+				</dir>	
+			</dir>
+		</target>
+	</root>
+	<root name = "SafariData" base = "Documents and Settings" path = "Application Data/Apple Computer/Safari$" keyNames = "Safari" OS="Windows XP" version="5.34.57.2">
+		<target name = "cache">
+			<dir name = "History">
+				<file name = "_[0-9]*\.cfs$" />
+				<file name = "deletable" />
+				<file name = "segments" />
+			</dir>
+			<file name = "Cache.db"/>
+		</target>
+		<target name = "cookie">
+			<dir name = "Cookies">
+				<file name = "Cookies.binarycookies" />
+			</dir>
+		</target>
+	</root>
+</Application>

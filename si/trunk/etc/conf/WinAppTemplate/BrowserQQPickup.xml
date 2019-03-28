@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="BrowserQQFiles">
+	<root name = "QQData" base = "Users" path = "Tencent/QQBrowser$" keyNames = "QQBrowser" OS="Windows7" version="8.1">
+		<target name =  "history">
+			<dir name = "DB">
+				<file name = "history.db"/>
+			</dir>
+		</target>
+	</root>
+	<root name = "QQData" base = "Users" path = "Tencent/QQBrowser/User Data/Default\d*$" keyNames = "Default" OS="Windows XP|win8" version="10">
+		<target name =  "history">  <!-- vwersion 10.0 版本与前面的重复的部分-->
+				<file name = "History.*"/>
+		</target>
+		<target name =  "Cookies">
+				<file name = "Cookies.*"/>
+		</target>
+		<target name =  "Bookmarks">
+				<file name = "Bookmarks"/>
+		</target>
+		<target name =  "Shortcuts">
+				<file name = "Shortcuts.*"/>
+		</target>
+		<target name =  "Top Sites">
+		  	<file name = "Top Sites.*"/>
+		</target>
+		<target name =  "Web Data">
+		  	<file name = "Web Data.*"/>
+		</target>
+		<!-- vwersion 10.0 版本新加-->
+		 <target name = "Cache">
+			<dir name = "Cache">
+				<file name = ".*"/>
+			</dir>
+		 </target>
+	</root>
+		<root name = "QQData" base = "Documents and Settings" path = "Tencent/QQBrowser$" keyNames = "QQBrowser" OS="Windows XP" version="8.1">
+		<target name =  "history">
+			<dir name = "DB">
+				<file name = "history.db"/>
+			</dir>
+		</target>
+	</root>
+	<root name = "QQData" base = "Documents and Settings" path = "Local Settings/Application Data/Tencent/QQBrowser/User Data/Default\d*$" keyNames = "Default" OS="Windows XP" version="8.1">
+		<target name =  "history">
+				<file name = "History.*"/>
+		</target>
+		<target name =  "Cookies">
+				<file name = "Cookies.*"/>
+		</target>
+		<target name =  "Bookmarks">
+				<file name = "Bookmarks"/>
+		</target>
+		<target name =  "Shortcuts">
+				<file name = "Shortcuts.*"/>
+		</target>
+		<target name =  "Top Sites">
+		  	<file name = "Top Sites.*"/>
+		</target>
+		<target name =  "Web Data">
+		  	<file name = "Web Data.*"/>
+		</target>
+	</root>
+</Application>
+
+
+
+

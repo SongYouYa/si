@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="Browser360seFiles">
+	<root name = "360Data" base = "" path = "360se6/User Data/Default$" keyNames = "Default" OS="Windows7" version="7.1.1.584">
+		<target name =  "history">
+			<file name = "History" />
+		</target>
+		<target name = "cookie">
+			<file name = "Cookies" />
+		</target>
+		<target name ="cache">
+			<dir name = "Cache">
+				<file name = "data_[0-9]+" />
+				<file name = "f_[0-9a-zA-Z]+" />
+				<file name = "index" />
+			</dir>
+		</target>
+	</root>
+	<root name = "360Data" base = "Users" path = "/360Chrome" keyNames = "360Chrome" OS="Windows8" version="9.50.132">
+		<target name = "DATA">
+			<dir name = "Chrome">
+				<dir name = "User Data">	
+					<dir name = "Default">
+						<file name = ".*.db" />
+						<file name = ".*.sqlite.*" />
+						<file name = "Cookies.*" />
+						<file name = "History.*" />
+						<dir name = "Cache">
+							<file name = "data_[0-9]+" />
+							<file name = "f_[0-9a-zA-Z]+" />
+							<file name = "index" />
+						</dir>
+					</dir>
+				</dir> 
+			</dir>
+		</target>
+	</root>
+</Application>

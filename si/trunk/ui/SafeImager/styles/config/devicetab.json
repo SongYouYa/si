@@ -1,0 +1,16 @@
+{
+	"tabs":{
+		"device_tab_clone": {
+			"icon": ":/styles/icons/device/clone.png"
+		},
+		"device_tab_image": {
+			"icon": ":/styles/icons/device/image.png"
+		},
+		"device_tab_memory": {
+			"icon": ":/styles/icons/device/memory.png"
+		},
+		"device_tab_erase": {
+			"icon": ":/styles/icons/device/erase.png"
+		}
+	}
+}

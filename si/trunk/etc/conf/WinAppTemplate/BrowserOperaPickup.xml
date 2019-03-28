@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="BrowserOperaFiles" >
+		<root name = "OperaData" base = "Users" path = "AppData$" keyNames = "AppData" OS="Windows7" version="25.0.1614.50">
+			<target name =  "history">
+				<dir name = "Roaming">
+					<dir name = "Opera Software">
+						<dir name = "Opera Stable">
+							<file name = "History" />
+							<file name = "Cookies" />
+						</dir>
+					</dir>
+				</dir>
+			</target>
+			<target name ="cache">
+				<dir name = "Local">
+					<dir name = "Opera Software">
+						<dir name = "Opera Stable">
+							<dir name = "Cache">
+								<file name = "data_[0-9]" />
+								<file name = "f_[0-9a-zA-Z]+" />
+								<file name = "index" />
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</target>
+		</root>
+		<root name = "OperaData" base = "Documents and Settings" path = "Application Data$" keyNames = "Application Data" OS="Windows XP" version="25.0.1614.50">
+			<target name =  "history">
+				<dir name = "Opera Software">
+					<dir name = "Opera Stable">
+						<file name = "History" />
+						<file name = "Cookies" />
+					</dir>
+				</dir>
+			</target>
+			<target name ="cache">
+				<dir name = "Local Settings">
+					<dir name = "Application Data">
+						<dir name = "Opera Software">
+							<dir name = "Opera Stable">
+								<dir name = "Cache">
+									<file name = "data_[0-9]" />
+									<file name = "f_[0-9a-zA-Z]+" />
+									<file name = "index" />
+								</dir>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</target>
+		</root>
+</Application>
+
+

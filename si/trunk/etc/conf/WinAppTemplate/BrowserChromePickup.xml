@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="BrowserChromeFiles">
+	<root name = "ChromeData" base = "Users" path = "/Chrome/User Data/Default" keyNames = "Default" OS="Windows7" version="43.0">
+		<target name =  "history">
+			<file name = "History" />
+		</target>
+		<target name = "cookie">
+			<file name = "Cookies" />
+		</target>
+		<target name ="cache">
+			<dir name = "Cache">
+				<file name = ".*" />
+			</dir>
+		</target>
+	</root>
+	<root name = "ChromeData" base = "Documents and Settings" path = "/Chrome/User Data/Default" keyNames = "Default" OS="Windows XP" version="43.0">
+		<target name =  "history">
+			<file name = "History" />
+		</target>
+		<target name = "cookie">
+			<file name = "Cookies" />
+		</target>
+		<target name ="cache">
+			<dir name = "Cache">
+				<file name = ".*" />
+			</dir>
+		</target>
+	</root>
+</Application>

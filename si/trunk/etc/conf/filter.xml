@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tables>
+	<table typename="table.fsfile">
+		<filter name="db" display = "数据库文件" expr="ext in &quot;db|mdb|sqlite|sqlite3&quot;"/>
+		<filter name="media" display = "多媒体文件" expr="ext in &quot;mp3|mp4|wav|wv|wmv|avi|mid|mpg|mpeg|asf|aac|flv|rm|rmvb|3gp|mov|mkv&quot;"/>
+		<filter name="pic" display = "图片文件" expr="ext in &quot;bmp|gif|png|rle|tif|tiff|cdr|dwg|dxf|wmf|eps|ico|jpg|jpeg|pcd|pcx|pic|psd|tga&quot;"/>
+		<filter name="doc" display = "文档文件" expr="ext in &quot;txt|doc|docx|ppt|pptx|xls|xlsx|pdf|html|wps|rtf&quot;"/>
+		<filter name="app" display = "应用数据文件" expr="appfile > 0"/>
+	</table>
+</tables>

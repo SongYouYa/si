@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="BrowserMaxthonFiles" >
+		<root name = "MaxthonData" base = "Users" path = "AppData$" keyNames = "AppData" OS="Windows7" version="4.4.2.2000">
+			<target name =  "history">
+				<dir name = "Roaming">
+					<dir name = "Maxthon[0-9]+">
+						<dir name = "Users">
+							<dir name = "guest">
+								<dir name = "History">
+									<file name = "History.dat" />
+								</dir>	
+								<dir name = "Cookie">
+									<file name = "Cookie.dat" />
+								</dir>	
+							</dir>	
+						</dir>	
+					</dir>	
+				</dir>	
+			</target>
+			<target name ="cache">
+				<dir name = "Local">
+					<dir name = "Temp">
+						<dir name = "^Maxthon\dCache$">
+							<dir name = "Temp">
+								<dir name = "Webkit">
+									<dir name = "Cache">
+										<file name = "data_[0-9]" />
+										<file name = "f_[0-9a-zA-Z]+" />
+										<file name = "index" />
+									</dir>
+								</dir>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</target>
+		</root>
+		<root name = "MaxthonData" base = "Documents and Settings" path = "" keyNames = "" OS="Windows XP" version="4.4.2.2000">
+			<target name =  "history">
+				<dir name = "Application Data">
+					<dir name = "Maxthon[0-9]+">
+						<dir name = "Users">
+							<dir name = "guest">
+								<dir name = "History">
+									<file name = "History.dat" />
+								</dir>	
+								<dir name = "Cookie">
+									<file name = "Cookie.dat" />
+								</dir>	
+							</dir>	
+						</dir>	
+					</dir>	
+				</dir>	
+			</target>
+			<target name ="cache">
+				<dir name = "Local Settings">
+					<dir name = "Temp">
+						<dir name = "^Maxthon\dCache$">
+							<dir name = "Temp">
+								<dir name = "Webkit">
+									<dir name = "Cache">
+										<file name = "data_[0-9]" />
+										<file name = "f_[0-9a-zA-Z]+" />
+										<file name = "index" />
+									</dir>
+								</dir>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</target>
+		</root>
+</Application>
+
+

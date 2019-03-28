@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="ChatXinLangWeiboFiles">
+	<root name = "XinKangWeiboData" base = "Users" path = "AppData/Roaming/Sina/Weibo201\d$" keyNames = "Weibo" OS="Windows7" version="4.5.3">
+		<target name =  "Data">
+			<dir name = "Data">
+				<file name = "wbdatabase[0-9]+\.dat" />
+			</dir>
+		</target>
+		<target name =  "log">
+			<dir name = "log">
+				<file name = ".*\.log" />
+			</dir>
+		</target>
+		<target name =  "PreferenceSetting">
+			<dir name = "PreferenceSetting">
+				<file name = ".*\.xml" />
+			</dir>
+		</target>
+	</root>
+	<root name = "XinLangWeiboData" base = "Documents and Settings" path = "Application Data/Sina/Weibo201\d$" keyNames = "Weibo" OS="Windows XP" version="4.5.3">
+		<target name =  "Data">
+			<dir name = "Data">
+				<file name = "wbdatabase[0-9]+\.dat" />
+			</dir>
+		</target>
+		<target name =  "log">
+			<dir name = "log">
+				<file name = ".*\.log" />
+			</dir>
+		</target>
+		<target name =  "PreferenceSetting">
+			<dir name = "PreferenceSetting">
+				<file name = ".*\.xml" />
+			</dir>
+		</target>
+	</root>
+</Application>

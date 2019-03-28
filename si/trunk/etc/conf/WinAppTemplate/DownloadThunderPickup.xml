@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="DownloadThunderFiles">
+	<root name = "ThunderData" base = "" path = "Thunder Network/.*$" keyNames = "" SubKeyNames = "&quot;.dat&quot;" OS="Windows8" version="7.9.36">
+		<target name =  "dat files">
+			<file name = ".*\.dat" />
+		</target>
+	</root>
+	<root name = "ThunderData" base = "" path = "" keyNames = "Profiles" OS="Windows8" version="9.1.49.1060">
+		<target name = "DAT">
+			<file name = "TaskDb\.dat.*" />	
+		</target>
+	</root>
+</Application>

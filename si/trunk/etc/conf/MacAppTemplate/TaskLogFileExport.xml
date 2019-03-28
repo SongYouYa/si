@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="LogFile">
+	<root name = "LibraryLog" base = "/Library/Logs" path = "" keyNames = "" OS = "mac" version="">
+		<target name =  "log">
+			<dir name = ".+"/>
+			<file name = ".+"/>
+		</target>
+	</root>
+	<root name = "PrivateVarLog" base = "/private/var/log" path = "" keyNames = "" OS = "mac" version="">
+		<target name =  "log">
+			<dir name = ".+"/>
+			<file name = ".+"/>
+		</target>
+	</root>
+	<root name = "UsersLibraryLog" base = "/Users/*/Library/Logs" path = "" keyNames = "" OS = "mac" version="">
+		<target name =  "log">
+			<dir name = ".+"/>
+			<file name = ".+"/>
+		</target>
+	</root>
+
+</Application>

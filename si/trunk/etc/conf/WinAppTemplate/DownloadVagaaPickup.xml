@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="DownloadVagaaFiles">
+	<root name = "VagaaData" base = "" path = "/Vagaa" keyNames = "Vagaa" OS="Windows" version="6.1">
+		<target name =  "cache">
+			<dir name = "Cache">
+				<file name = ".*" />
+			</dir>
+		</target>
+		<target name = "data">
+			<dir name = "Data">
+				<file name = ".*\.dat" />
+			</dir>
+		</target>
+	</root>
+</Application>

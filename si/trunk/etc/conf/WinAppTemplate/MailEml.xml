@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="eml">
+	<root name = "eml" base = "" path = "" SubKeyNames = "&quot;.eml&quot;" OS="Windows" version="">
+		<target name =  "eml">
+			<file name = ".*\.eml" />
+		</target>
+	</root>
+</Application>

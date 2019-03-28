@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="Win10mail">
+	<root name = "Win10mail" base = "" path = "" keyNames = "UnistoreDB" OS="Windows10" version="">
+		<target name =  "db">
+			<file name = "store.vol" />
+		</target>
+	</root>
+</Application>

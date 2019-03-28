@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+body{ padding:0; margin:0; font-family: "微软雅黑"; font-size:14px; background: none}
+
+.page{ width:80%; min-width:944px; margin:auto; }
+.pagecontent { width:100%; float:left }
+
+.title{ width:100%; float:left; font-size:20px; line-height:1.5;}
+.title img{ width:25px; height:25px; vertical-align:-5px}
+.title h1, h2, h3, h4, h5, h6 {display:inline; padding-left:10px}
+.title h1 { font-size:22px; font-weight: bold;}
+.title h2 { font-size:19px; font-weight:500; }
+.title h3 { font-size:17px; font-weight:400}
+.title h4, h5, h6 { font-size:15px; font-weight:lighter}
+
+.title p.stretch_btn{float:right}
+.title p{
+	cursor:pointer;
+    display: inline-block;
+    *display: inline;
+    right: 10px;
+    height: 24px;
+    width: 24px;
+    background-image:url(../images/arrow_up.png);
+    background-repeat: no-repeat;
+	margin: 8px; 
+	float:right;
+    zoom: 1;
+    -webkit-animation: arrow_turn_anticlockwise 0.3s linear;
+    animation: arrow_turn_anticlockwise 0.3s linear;}
+@-webkit-keyframes arrow_turn_anticlockwise {
+    0% {
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+}
+@keyframes arrow_turn_anticlockwise {
+    0% {
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+}
+.title .active {
+	background-image:url(../images/arrow_down.png);
+    -webkit-animation: arrow_turn_clockwise 0.3s linear;
+    animation: arrow_turn_clockwise 0.3s linear;
+}
+@-webkit-keyframes arrow_turn_clockwise {
+    0% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(-180deg);
+    }
+}
+@keyframes arrow_turn_clockwise {
+    0% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+
+
+table{word-break: break-all;}
+table{border-collapse:collapse; border:solid 1px #dedede;}
+.table{ width:100%; }
+.table tr{ border-bottom:solid 1px #DEDEDE;}
+.table tr td{ padding:3px; border-right:solid 1px #DEDEDE; text-align: center;}
+.table tr td.cHidden {display:none;} /*hide*/
+.table thead td{background:#f1f1f1; border-right:none; text-align:center; min-width:30px}
+.table thead td.cTime {min-width:80px;} /*time*/
+.table thead td.cSize {min-width:60px} /*size*/
+.table tbody td.cLongStr {text-align: left;} /*size*/
+.table tbody td.cSize {text-align: right;} /*size*/
+
+
+.table img { width:20px; height:20px; vertical-align:-5px; padding-right:7px; }
+img.mediaImg { width:35px; height:35px }
+
+#returntop{position:fixed; bottom:20px;margin-left: 10px; cursor:pointer;}
+
+.backg1 tr td{background:#fce8d4;/*orange*/}
+.backg2 tr td {background:#d9faff/*blue*/}
+
+.sw1 { width: 30% }
+.numCell { width:35px; text-align:center }
+.multiItemCell {min-width:80px}
+
+.textCenter {text-align:center}
+.textLeft{ text-align:left }
+
+a {color:#3cade2; text-align:left}
+a.more{ float:right; line-height:30px;}
+
+.pagejump {float:left; color:#7b7b7b; line-height:50px;}
+.pagejump span{ padding-left:5px;}
+.pagejump a{ padding:0 5px; border:solid 1px #ddd; text-decoration:none; color:#7b7b7b }
+.pagejump a:hover{background:#4ba0d9; color:#fff; transition:all 0.2s ease}
+.pagejump .page_checked{ background:#4ba0d9; color:#fff;}

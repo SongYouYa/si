@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="ChatAliWangWangFiles">
+	<root name = "WangWangData" base = "" path = "profiles$" keyNames = "profiles" OS="Windows" version="8.10.24C">
+		<target name =  "account">
+			<dir name = "cn.*">
+				<dir name = "db">
+					<file name="[a-zA-Z0-9]+msghis.db"/>
+					<file name = "user.db" />
+				</dir>
+			</dir>
+		</target>
+	</root>
+</Application>

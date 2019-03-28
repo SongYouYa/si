@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="SystemEventLogFiles">
+	<root name = "SystemEventLogData" base = "Windows" path = "system32$" keyNames = "system32" OS="Windows" version="">
+		<target name =  "SystemEventLogFiles">
+			<dir name = "config">
+				<file name = ".*\.evt"/>
+				<file name = ".*\.evtx"/>
+			</dir>
+			<dir name = "winevt">
+				<dir name = "logs">
+					<file name = ".*\.evt"/>
+					<file name = ".*\.evtx"/>
+				</dir>
+			</dir>
+		</target>
+
+	</root>
+
+</Application>

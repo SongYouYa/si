@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tree>
+	<catagory name="mac" doc="macos分析项">
+		<type name="table.systemfolder">
+			<type name="table.mac.systembaseinfo"/>
+			<type name="table.mac.applist_sys"/>
+			<type name="table.mac.userinfo"/>
+			<type name="table.mac.sharelistinfo"/>
+			<type name="table.mac.autorun"/>
+		</type>
+		<type name="table.mac.activeinfo">
+			<type name="table.mac.loginfo">
+				<type name="table.mac.LogFileInfo"/>
+				<type name="table.mac.LogComputerBoot"/>
+				<type name="table.mac.LogDiskStatus"/>
+				<type name="table.mac.LogNetworkInterface"/>
+			</type>
+			<type name="table.mac.useractiveinfo">
+				<type name="table.mac.MacAddressBook"/>
+				<type name="table.mac.RecentlyUsedItem"/>
+			</type>
+			<type name="table.mac.filelist">
+				<type name="table.mac.UserFileList"/>
+				<type name="table.mac.EncryptFileInfo"/>
+			</type>
+		</type>
+		<type name="table.mac.browser">
+			<type name="table.mac.safari">
+				<type name="table.mac.safarihistory"/>
+				<type name="table.mac.safaridownload"/>
+				<type name="table.mac.safaricache"/>
+				<type name="table.mac.safaribookmark"/>
+				<type name="table.mac.safaricookie"/>
+			</type>
+			<type name="table.mac.chrome">
+				<type name="table.mac.chromehistory"/>
+				<type name="table.mac.chromedownload"/>
+				<type name="table.mac.chromecache"/>
+				<type name="table.mac.chromebookmark"/>
+				<type name="table.mac.chromecookie"/>
+				<type name="table.mac.chromeform"/>
+			</type>
+		</type>
+		<type name="table.mac.im">
+			<type name="table.mac.skype">
+				<type name="table.mac.skypeaccount"/>
+				<type name="table.mac.skypecontact"/>
+				<type name="table.mac.skypemsg"/>
+			</type>
+			<type name="table.mac.imessage">
+				<type name="table.mac.imessageaccount"/>
+				<type name="table.mac.imessagemsg"/>
+			</type>
+			<type name="table.mac.adium">
+				<type name="table.mac.adiumcontact"/>
+				<type name="table.mac.adiumaccount"/>
+			</type>
+		</type>
+		<type name="table.mac.mail">
+			<type name="table.mac.applemail">
+				<type name="table.mac.AppleMailAccount"/>
+				<type name="table.mac.AppleMailContact"/>
+				<type name="table.mac.AppleMailRecords"/>
+			</type>
+			<type name="table.mac.thunderbird">
+				<type name="table.mac.ThunderbirdContact"/>
+				<type name="table.mac.ThunderbirdRecords"/>
+			</type>
+		</type>
+	</catagory>
+</tree>

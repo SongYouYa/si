@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="BrowserIEFiles">
+	<root name = "IEData" base = "Users" path = "[a-zA-Z0-9]+/AppData$" keyNames = "AppData" OS="Windows7" version="11.0.9600.17358">
+		<target name = "db">
+			<dir name = "Local">
+				<dir name = "Microsoft">
+					<dir name = "Windows">
+						<dir name = "WebCache">
+							<file name = "WebCacheV01.dat" />
+						</dir>
+					</dir>
+				</dir>	
+			</dir>
+		</target>
+		<target name = "cookie">
+			<dir name = "Roaming">
+				<dir name = "Microsoft">
+					<dir name = "Windows">
+						<dir name = "Cookies">
+							<dir name = "Low">
+								<file name = ".*" />
+							</dir>
+							<file name = ".*" />
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</target>
+		<target name = "cache">
+			<dir name = "Local">
+				<dir name = "Microsoft">
+					<dir name = "Windows">
+						<dir name = "Temporary Internet Files">
+							<dir name = "Content.IE5">
+								<dir name = "[A-Za-z0-9]*">
+									<file name = ".*" />
+								</dir>
+							</dir>
+							<file name = "db*$"/>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</target>
+	</root>
+	<root name = "IEData" base = "Documents and Settings" path = "" keyNames = "" OS="Windows XP" version="6">
+		<target name = "cache">
+			<dir name = "Local Settings">
+				<dir name = "Temporary Internet Files">
+					<file name = ".+" />
+				</dir>
+			</dir>
+		</target>
+		<target name = "cookie">
+			<dir name = "Cookies">
+				<file name = ".+" />
+			</dir>
+		</target>
+	</root>
+</Application>

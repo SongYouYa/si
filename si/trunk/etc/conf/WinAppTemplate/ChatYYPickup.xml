@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="ChatYYFiles">
+	<root name = "YYData" base = "Users" path = "AppData/Roaming/duowan" keyNames = "" OS="Windows7" version="7">
+		<target name =  "db">
+			<file name = "ygrc.db" />
+		</target>
+	</root>
+	<root name = "YYData" base = "Documents and Settings" path = "Application Data/duowan" keyNames = "" OS = "Windows XP" version = "7">
+		<target name =  "db">
+			<file name = "ygrc.db" />
+		</target>
+	</root>
+	<root name = "yychatData" base = "Users" path = "AppData/Roaming/duowan/yy$" keyNames = "yy" OS="Windows7" version="8.40">
+		<target name = "db">
+			<dir name = "imgroup">
+				<dir name = "[0-9]+">
+					<dir name = "yydb">
+						<file name = ".*\.yydb" />
+					</dir>
+				</dir>
+			</dir>
+			<dir name="mainframe">
+				<dir name = "account">
+					<file name = ".*" />	
+				</dir>
+			</dir>
+		</target>
+	</root>
+</Application>

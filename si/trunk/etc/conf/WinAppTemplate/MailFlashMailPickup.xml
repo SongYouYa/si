@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="MailFlashMailFiles">
+	<root name = "FlashMailData" base = "" path = "/account$" keyNames = "account" OS="Windows" version="2.4.0.11">
+		<target name =  "account">
+			<dir name = "[A-Za-z0-9]+@[A-Za-z0-9]+\.[a-zA-Z]*">
+				<file name = "[a-zA-Z]+\.indx" />
+				<file name = "[a-zA-Z]+\.mobx" />
+				<file name = "Account.cfg" />
+			</dir>
+		</target>
+	</root>
+	<root name = "FlashMailAddress" base = "" path = "/address$" keyNames = "address" OS="Windows" version="2.4.0.11">
+		<target name = "address">
+			<file name = "common.indx" />
+			<file name = "common.mbox" />
+		</target>
+	</root>
+	<root name = "FlashMailAddress" base = "" path = "" keyNames = "MailMasterData" OS="Windows8" version="4.2.0.11">
+		<target name = "flash_db">
+			<dir name = ".*@.*">	
+				<file name = ".*\.db.*" />
+			</dir>	
+		</target>
+	</root>
+</Application>

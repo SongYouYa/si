@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="MailOutlookFiles">
+	<root name = "OutlookData" base = "" path = "" keyNames = "" SubKeyNames = "&quot;.pst&quot; OR &quot;.ost&quot;" OS="Windows" version="2013">
+		<target name =  "pst">
+			<file name = ".*\.pst" />
+			<file name = ".*\.ost" />
+		</target>
+	</root>
+	<root name = "OutlookData" base = "Documents and Settings" path = "Local Settings/Application Data/Microsoft/Outlook$" keyNames = "Outlook" OS="windows XP" version="2010">
+		<target name =  "pst">
+			<file name = ".*\.pst" />
+			<file name = ".*\.ost" />
+		</target>
+	</root>
+	<root name = "OutlookData" base = "Users" path = "AppData/Local/Microsoft/Outlook" keyNames = "Outlook" OS="Windows" version="2016">
+		<target name =  "ost_db">
+			<file name = ".*" />
+			<dir name = "RoamCache">
+				<file name = ".*\.dat" />
+			</dir>
+		</target>
+	</root>
+</Application>

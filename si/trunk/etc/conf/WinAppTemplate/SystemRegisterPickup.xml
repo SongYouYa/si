@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="SystemRegisterFiles">
+	<root name = "RegisterData" base = "Windows/system32/config" path = "" keyNames = "" OS="Windows" version="">
+		<target name =  "RegisterFiles">
+			<file name = "default"/>
+			<file name = "software"/>
+			<file name = "sam"/>
+			<file name = "system"/>
+			<file name = "security"/>
+		</target>
+	</root>
+	<root name = "RegisterUserData" base = "Users/*" path = "" keyNames = "" OS = "Windows" version = "">
+		<target name = "RegisterUsers">
+			<file name = "ntuser\.dat"/>
+			<file name = "ntuser\.ini"/>
+		</target>
+	</root>
+	<root name = "RegisterUserData" base = "Documents and Settings/*" path = "" keyNames = "" OS = "Windows XP" version = "">
+		<target name = "RegisterUsers">
+			<file name = "NTUSER\.DAT"/>
+			<file name = "ntuser\.ini"/>
+		</target>
+	</root>
+
+</Application>

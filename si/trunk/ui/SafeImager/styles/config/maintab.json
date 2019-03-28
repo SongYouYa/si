@@ -1,0 +1,24 @@
+{
+	"tabs":{
+		"tab_copy": {
+			"icon_normal": ":/styles/icons/tab/copy.png",
+			"icon_active": ":/styles/icons/tab/copy_active.png"
+		},
+		"tab_filesystem": {
+			"icon_normal": ":/styles/icons/tab/filesystem.png",
+			"icon_active": ":/styles/icons/tab/filesystem_active.png"
+		},
+		"tab_app": {
+			"icon_normal": ":/styles/icons/tab/app.png",
+			"icon_active": ":/styles/icons/tab/app_active.png"
+		},
+		"tab_report": {
+			"icon_normal": ":/styles/icons/tab/report.png",
+			"icon_active": ":/styles/icons/tab/report_active.png"
+		},
+		"tab_task": {
+			"icon_normal": ":/styles/icons/tab/task.png",
+			"icon_active": ":/styles/icons/tab/task_active.png"
+		}
+	}
+}

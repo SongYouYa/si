@@ -1,0 +1,27 @@
+
+#CC = gcc
+CC = clang
+
+#post = so
+post = dylib
+
+AR = ar rcs
+RM = -rm -rf
+
+all : mysqlite
+
+INCLUDE = ./src
+
+CFLAGS = -Wall -O -fPIC
+CFLAGS += -mmacosx-version-min=10.10
+
+OBJS = $(patsubst %.c,%.o, $(wildcard src/sql*.c))
+
+%.o:%.c
+	$(CC) -c $(CFLAGES) -I$(INCLUDE) $< -o $@
+
+mysqlite : $(OBJS)
+	$(CC) -shared $(OBJS) -o libsqlite3.$(post)
+
+clean:
+	$(RM) src/*.o

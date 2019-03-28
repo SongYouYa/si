@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Public Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\material">
+      <UniqueIdentifier>{ee5ca8ae-f20c-48da-bc19-c14fa11928b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handler">
+      <UniqueIdentifier>{eb8fb4ae-df7e-48d2-a54f-ce5c00ec09ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\report\globals.h">
+      <Filter>Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="material\PCell.h">
+      <Filter>Source Files\material</Filter>
+    </ClInclude>
+    <ClInclude Include="material\PCssDefine.h">
+      <Filter>Source Files\material</Filter>
+    </ClInclude>
+    <ClInclude Include="material\PRow.h">
+      <Filter>Source Files\material</Filter>
+    </ClInclude>
+    <ClInclude Include="material\PTable.h">
+      <Filter>Source Files\material</Filter>
+    </ClInclude>
+    <ClInclude Include="PLanguageSource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PReportPath.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\report\PReportConfig.h">
+      <Filter>Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PUtil.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="handler\PReportHandler.h">
+      <Filter>Source Files\handler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\report\PReportUtility.h">
+      <Filter>Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="material\PPage.h">
+      <Filter>Source Files\material</Filter>
+    </ClInclude>
+    <ClInclude Include="material\PPageJumper.h">
+      <Filter>Source Files\material</Filter>
+    </ClInclude>
+    <ClInclude Include="material\PPageSet.h">
+      <Filter>Source Files\material</Filter>
+    </ClInclude>
+    <ClInclude Include="material\PTree.h">
+      <Filter>Source Files\material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\report\PRecordReport.h">
+      <Filter>Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\report\PRecordReport2.h">
+      <Filter>Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="material\PTableBase.h">
+      <Filter>Source Files\material</Filter>
+    </ClInclude>
+    <ClInclude Include="material\PTree2.h">
+      <Filter>Source Files\material</Filter>
+    </ClInclude>
+    <ClInclude Include="material\PTable2.h">
+      <Filter>Source Files\material</Filter>
+    </ClInclude>
+    <ClInclude Include="material\PContent2.h">
+      <Filter>Source Files\material</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="material\PCell.cpp">
+      <Filter>Source Files\material</Filter>
+    </ClCompile>
+    <ClCompile Include="material\PRow.cpp">
+      <Filter>Source Files\material</Filter>
+    </ClCompile>
+    <ClCompile Include="material\PTable.cpp">
+      <Filter>Source Files\material</Filter>
+    </ClCompile>
+    <ClCompile Include="PLanguageSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PReportPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PReportConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="handler\PReportHandler.cpp">
+      <Filter>Source Files\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="PReportUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="material\PPage.cpp">
+      <Filter>Source Files\material</Filter>
+    </ClCompile>
+    <ClCompile Include="material\PPageJumper.cpp">
+      <Filter>Source Files\material</Filter>
+    </ClCompile>
+    <ClCompile Include="material\PPageSet.cpp">
+      <Filter>Source Files\material</Filter>
+    </ClCompile>
+    <ClCompile Include="PRecordReport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="material\PTree.cpp">
+      <Filter>Source Files\material</Filter>
+    </ClCompile>
+    <ClCompile Include="PRecordReport2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="material\PTableBase.cpp">
+      <Filter>Source Files\material</Filter>
+    </ClCompile>
+    <ClCompile Include="material\PTree2.cpp">
+      <Filter>Source Files\material</Filter>
+    </ClCompile>
+    <ClCompile Include="material\PTable2.cpp">
+      <Filter>Source Files\material</Filter>
+    </ClCompile>
+    <ClCompile Include="material\PContent2.cpp">
+      <Filter>Source Files\material</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
